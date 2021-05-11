@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  width: 900px;
+  height: 600px;
+  position: relative;
+  background: white;
+}
+
+.card {
+    width: 100px;
+    height: 140px;
+    position: absolute;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.date1_var1 {
+    background-color: green;
+    animation-name: date1_var1_anim;
+}
+.date1_var2 {
+    background-color: yellow;
+    animation-name: date1_var2_anim;
+}
+.date1_var3 {
+    background-color: orange;
+    animation-name: date1_var3_anim;
+}
+.date1_var4 {
+    background-color: red;
+    animation-name: date1_var4_anim;
+}
+.date1_var5 {
+    background-color: blue;
+    animation-name: date1_var5_anim;
+}
+.date1_var6 {
+    background-color: purple;
+    animation-name: date1_var6_anim;
+}
+
+.date2_var1 {
+    background-color: green;
+    animation-name: date2_var1_anim;
+}
+.date2_var2 {
+    background-color: yellow;
+    animation-name: date2_var2_anim;
+}
+.date2_var3 {
+    background-color: orange;
+    animation-name: date2_var3_anim;
+}
+.date2_var4 {
+    background-color: red;
+    animation-name: date2_var4_anim;
+}
+.date2_var5 {
+    background-color: blue;
+    animation-name: date2_var5_anim;
+}
+.date2_var6 {
+    background-color: purple;
+    animation-name: date2_var6_anim;
+}
+
+.date3_var1 {
+    background-color: green;
+    animation-name: date3_var1_anim;
+}
+.date3_var2 {
+    background-color: yellow;
+    animation-name: date3_var2_anim;
+}
+.date3_var3 {
+    background-color: orange;
+    animation-name: date3_var3_anim;
+}
+.date3_var4 {
+    background-color: red;
+    animation-name: date3_var4_anim;
+}
+.date3_var5 {
+    background-color: blue;
+    animation-name: date3_var5_anim;
+}
+.date3_var6 {
+    background-color: purple;
+    animation-name: date3_var6_anim;
+}
+
+.date4_var1 {
+    background-color: green;
+    animation-name: date4_var1_anim;
+}
+.date4_var2 {
+    background-color: yellow;
+    animation-name: date4_var2_anim;
+}
+.date4_var3 {
+    background-color: orange;
+    animation-name: date4_var3_anim;
+}
+.date4_var4 {
+    background-color: red;
+    animation-name: date4_var4_anim;
+}
+.date4_var5 {
+    background-color: blue;
+    animation-name: date4_var5_anim;
+}
+.date4_var6 {
+    background-color: purple;
+    animation-name: date4_var6_anim;
+}
+
+.date5_var1 {
+    background-color: green;
+    animation-name: date5_var1_anim;
+}
+.date5_var2 {
+    background-color: yellow;
+    animation-name: date5_var2_anim;
+}
+.date5_var3 {
+    background-color: orange;
+    animation-name: date5_var3_anim;
+}
+.date5_var4 {
+    background-color: red;
+    animation-name: date5_var4_anim;
+}
+.date5_var5 {
+    background-color: blue;
+    animation-name: date5_var5_anim;
+}
+.date5_var6 {
+    background-color: purple;
+    animation-name: date5_var6_anim;
+}
+
+@keyframes date1_var1_anim {
+    0%   {left:0px; top:0px;}
+    10%  {left:0px; top:0px;}
+    38%  {left:0px; top:0px;}
+    40%  {left:0px; top:300px;}
+    95%  {left:0px; top:300px;}
+    97%  {left:0px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes date1_var2_anim {
+    0%   {left:0px; top:0px;}
+    10%  {left:0px; top:0px;}
+    11%  {left:0px; top:20px;}
+    48%  {left:0px; top:20px;}
+    50%  {left:150px; top:300px;}
+    95%  {left:150px; top:300px;}
+    97%  {left:150px; top:0px;}
+    100% {left:150px; top:0px;}
+}
+@keyframes date1_var3_anim {
+    0%   {left:0px; top:0px;}
+    10%  {left:0px; top:0px;}
+    11%  {left:0px; top:20px;}
+    12%  {left:0px; top:40px;}
+    58%  {left:0px; top:40px;}
+    60%  {left:300px; top:300px;}
+    95%  {left:300px; top:300px;}
+    97%  {left:300px; top:0px;}
+    100% {left:300px; top:0px;}
+}
+@keyframes date1_var4_anim {
+    0%   {left:0px; top:0px;}
+    10%  {left:0px; top:0px;}
+    11%  {left:0px; top:20px;}
+    12%  {left:0px; top:40px;}
+    13%  {left:0px; top:60px;}
+    68%  {left:0px; top:60px;}
+    70%  {left:450px; top:300px;}
+    95%  {left:450px; top:300px;}
+    97%  {left:450px; top:0px;}
+    100% {left:450px; top:0px;}
+}
+@keyframes date1_var5_anim {
+    0%   {left:0px; top:0px;}
+    10%  {left:0px; top:0px;}
+    11%  {left:0px; top:20px;}
+    12%  {left:0px; top:40px;}
+    13%  {left:0px; top:60px;}
+    14%  {left:0px; top:80px;}
+    78%  {left:0px; top:80px;}
+    80%  {left:600px; top:300px;}
+    95%  {left:600px; top:300px;}
+    97%  {left:600px; top:0px;}
+    100% {left:600px; top:0px;}
+}
+@keyframes date1_var6_anim {
+    0%   {left:0px; top:0px;}
+    10%  {left:0px; top:0px;}
+    11%  {left:0px; top:20px;}
+    12%  {left:0px; top:40px;}
+    13%  {left:0px; top:60px;}
+    14%  {left:0px; top:80px;}
+    15%  {left:0px; top:100px;}
+    88%  {left:0px; top:100px;}
+    90%  {left:750px; top:300px;}
+    95%  {left:750px; top:300px;}
+    97%  {left:750px; top:0px;}
+    100% {left:750px; top:0px;}
+}
+
+@keyframes date2_var1_anim {
+    0%   {left:150px; top:0px;}
+    10%  {left:150px; top:0px;}
+    36%  {left:150px; top:0px;}
+    38%  {left:0px; top:320px;}
+    95%  {left:0px; top:320px;}
+    97%  {left:0px; top:20px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes date2_var2_anim {
+    0%   {left:150px; top:0px;}
+    10%  {left:150px; top:0px;}
+    11%  {left:150px; top:20px;}
+    46%  {left:150px; top:20px;}
+    48%  {left:150px; top:320px;}
+    95%  {left:150px; top:320px;}
+    97%  {left:150px; top:20px;}
+    100% {left:150px; top:0px;}
+}
+@keyframes date2_var3_anim {
+    0%   {left:150px; top:0px;}
+    10%  {left:150px; top:0px;}
+    11%  {left:150px; top:20px;}
+    12%  {left:150px; top:40px;}
+    56%  {left:150px; top:40px;}
+    58%  {left:300px; top:320px;}
+    95%  {left:300px; top:320px;}
+    97%  {left:300px; top:20px;}
+    100% {left:300px; top:0px;}
+}
+@keyframes date2_var4_anim {
+    0%   {left:150px; top:0px;}
+    10%  {left:150px; top:0px;}
+    11%  {left:150px; top:20px;}
+    12%  {left:150px; top:40px;}
+    13%  {left:150px; top:60px;}
+    66%  {left:150px; top:60px;}
+    68%  {left:450px; top:320px;}
+    95%  {left:450px; top:320px;}
+    97%  {left:450px; top:20px;}
+    100% {left:450px; top:0px;}
+}
+@keyframes date2_var5_anim {
+    0%   {left:150px; top:0px;}
+    10%  {left:150px; top:0px;}
+    11%  {left:150px; top:20px;}
+    12%  {left:150px; top:40px;}
+    13%  {left:150px; top:60px;}
+    14%  {left:150px; top:80px;}
+    76%  {left:150px; top:80px;}
+    78%  {left:600px; top:320px;}
+    95%  {left:600px; top:320px;}
+    97%  {left:600px; top:20px;}
+    100% {left:600px; top:0px;}
+}
+@keyframes date2_var6_anim {
+    0%   {left:150px; top:0px;}
+    10%  {left:150px; top:0px;}
+    11%  {left:150px; top:20px;}
+    12%  {left:150px; top:40px;}
+    13%  {left:150px; top:60px;}
+    14%  {left:150px; top:80px;}
+    15%  {left:150px; top:100px;}
+    86%  {left:150px; top:100px;}
+    88%  {left:750px; top:320px;}
+    95%  {left:750px; top:320px;}
+    97%  {left:750px; top:20px;}
+    100% {left:750px; top:0px;}
+}
+
+@keyframes date3_var1_anim {
+    0%   {left:300px; top:0px;}
+    10%  {left:300px; top:0px;}
+    34%  {left:300px; top:0px;}
+    36%  {left:0px; top:340px;}
+    95%  {left:0px; top:340px;}
+    97%  {left:0px; top:40px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes date3_var2_anim {
+    0%   {left:300px; top:0px;}
+    10%  {left:300px; top:0px;}
+    11%  {left:300px; top:20px;}
+    44%  {left:300px; top:20px;}
+    46%  {left:150px; top:340px;}
+    95%  {left:150px; top:340px;}
+    97%  {left:150px; top:40px;}
+    100% {left:150px; top:0px;}
+}
+@keyframes date3_var3_anim {
+    0%   {left:300px; top:0px;}
+    10%  {left:300px; top:0px;}
+    11%  {left:300px; top:20px;}
+    12%  {left:300px; top:40px;}
+    54%  {left:300px; top:40px;}
+    56%  {left:300px; top:340px;}
+    95%  {left:300px; top:340px;}
+    97%  {left:300px; top:40px;}
+    100% {left:300px; top:0px;}
+}
+@keyframes date3_var4_anim {
+    0%   {left:300px; top:0px;}
+    10%  {left:300px; top:0px;}
+    12%  {left:300px; top:20px;}
+    12%  {left:300px; top:40px;}
+    13%  {left:300px; top:60px;}
+    64%  {left:300px; top:60px;}
+    66%  {left:450px; top:340px;}
+    95%  {left:450px; top:340px;}
+    97%  {left:450px; top:40px;}
+    100% {left:450px; top:0px;}
+}
+@keyframes date3_var5_anim {
+    0%   {left:300px; top:0px;}
+    10%  {left:300px; top:0px;}
+    11%  {left:300px; top:20px;}
+    12%  {left:300px; top:40px;}
+    13%  {left:300px; top:60px;}
+    14%  {left:300px; top:80px;}
+    74%  {left:300px; top:80px;}
+    76%  {left:600px; top:340px;}
+    95%  {left:600px; top:340px;}
+    97%  {left:600px; top:40px;}
+    100% {left:600px; top:0px;}
+}
+@keyframes date3_var6_anim {
+    0%   {left:300px; top:0px;}
+    10%  {left:300px; top:0px;}
+    11%  {left:300px; top:20px;}
+    12%  {left:300px; top:40px;}
+    13%  {left:300px; top:60px;}
+    14%  {left:300px; top:80px;}
+    15%  {left:300px; top:100px;}
+    84%  {left:300px; top:100px;}
+    86%  {left:750px; top:340px;}
+    95%  {left:750px; top:340px;}
+    97%  {left:750px; top:40px;}
+    100% {left:750px; top:0px;}
+}
+
+@keyframes date4_var1_anim {
+    0%   {left:450px; top:0px;}
+    10%  {left:450px; top:0px;}
+    32%  {left:450px; top:0px;}
+    34%  {left:0px; top:360px;}
+    95%  {left:0px; top:360px;}
+    97%  {left:0px; top:60px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes date4_var2_anim {
+    0%   {left:450px; top:0px;}
+    10%  {left:450px; top:0px;}
+    11%  {left:450px; top:20px;}
+    42%  {left:450px; top:20px;}
+    44%  {left:150px; top:360px;}
+    95%  {left:150px; top:360px;}
+    97%  {left:150px; top:60px;}
+    100% {left:150px; top:0px;}
+}
+@keyframes date4_var3_anim {
+    0%   {left:450px; top:0px;}
+    10%  {left:450px; top:0px;}
+    11%  {left:450px; top:20px;}
+    12%  {left:450px; top:40px;}
+    52%  {left:450px; top:40px;}
+    54%  {left:300px; top:360px;}
+    95%  {left:300px; top:360px;}
+    97%  {left:300px; top:60px;}
+    100% {left:300px; top:0px;}
+}
+@keyframes date4_var4_anim {
+    0%   {left:450px; top:0px;}
+    10%  {left:450px; top:0px;}
+    11%  {left:450px; top:20px;}
+    12%  {left:450px; top:40px;}
+    13%  {left:450px; top:60px;}
+    62%  {left:450px; top:60px;}
+    64%  {left:450px; top:360px;}
+    95%  {left:450px; top:360px;}
+    97%  {left:450px; top:60px;}
+    100% {left:450px; top:0px;}
+}
+@keyframes date4_var5_anim {
+    0%   {left:450px; top:0px;}
+    10%  {left:450px; top:0px;}
+    11%  {left:450px; top:20px;}
+    12%  {left:450px; top:40px;}
+    13%  {left:450px; top:60px;}
+    14%  {left:450px; top:80px;}
+    72%  {left:450px; top:80px;}
+    74%  {left:600px; top:360px;}
+    95%  {left:600px; top:360px;}
+    97%  {left:600px; top:60px;}
+    100% {left:600px; top:0px;}
+}
+@keyframes date4_var6_anim {
+    0%   {left:450px; top:0px;}
+    10%  {left:450px; top:0px;}
+    11%  {left:450px; top:20px;}
+    12%  {left:450px; top:40px;}
+    13%  {left:450px; top:60px;}
+    14%  {left:450px; top:80px;}
+    15%  {left:450px; top:100px;}
+    82%  {left:450px; top:100px;}
+    84%  {left:750px; top:360px;}
+    95%  {left:750px; top:360px;}
+    97%  {left:750px; top:60px;}
+    100% {left:750px; top:0px;}
+}
+
+@keyframes date5_var1_anim {
+    0%   {left:600px; top:0px;}
+    10%  {left:600px; top:0px;}
+    30%  {left:600px; top:0px;}
+    32%  {left:0px; top:380px;}
+    95%  {left:0px; top:380px;}
+    97%  {left:0px; top:80px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes date5_var2_anim {
+    0%   {left:600px; top:0px;}
+    10%  {left:600px; top:0px;}
+    11%  {left:600px; top:20px;}
+    40%  {left:600px; top:20px;}
+    42%  {left:150px; top:380px;}
+    95%  {left:150px; top:380px;}
+    97%  {left:150px; top:80px;}
+    100% {left:150px; top:0px;}
+}
+@keyframes date5_var3_anim {
+    0%   {left:600px; top:0px;}
+    10%  {left:600px; top:0px;}
+    11%  {left:600px; top:20px;}
+    12%  {left:600px; top:40px;}
+    50%  {left:600px; top:40px;}
+    52%  {left:300px; top:380px;}
+    95%  {left:300px; top:380px;}
+    97%  {left:300px; top:80px;}
+    100% {left:300px; top:0px;}
+}
+@keyframes date5_var4_anim {
+    0%   {left:600px; top:0px;}
+    10%  {left:600px; top:0px;}
+    11%  {left:600px; top:20px;}
+    12%  {left:600px; top:40px;}
+    13%  {left:600px; top:60px;}
+    60%  {left:600px; top:60px;}
+    62%  {left:450px; top:380px;}
+    95%  {left:450px; top:380px;}
+    97%  {left:450px; top:80px;}
+    100% {left:450px; top:0px;}
+}
+@keyframes date5_var5_anim {
+    0%   {left:600px; top:0px;}
+    10%  {left:600px; top:0px;}
+    11%  {left:600px; top:20px;}
+    12%  {left:600px; top:40px;}
+    13%  {left:600px; top:60px;}
+    14%  {left:600px; top:80px;}
+    70%  {left:600px; top:80px;}
+    72%  {left:600px; top:380px;}
+    95%  {left:600px; top:380px;}
+    97%  {left:600px; top:80px;}
+    100% {left:600px; top:0px;}
+}
+@keyframes date5_var6_anim {
+    0%   {left:600px; top:0px;}
+    10%  {left:600px; top:0px;}
+    11%  {left:600px; top:20px;}
+    12%  {left:600px; top:40px;}
+    13%  {left:600px; top:60px;}
+    14%  {left:600px; top:80px;}
+    15%  {left:600px; top:100px;}
+    80%  {left:600px; top:100px;}
+    82%  {left:750px; top:380px;}
+    95%  {left:750px; top:380px;}
+    97%  {left:750px; top:80px;}
+    100% {left:750px; top:0px;}
+}
+
+</style>
+</head>
+  <body>
+    <h2>Shuffle</h2>
+    <h3>from {date-based stacks of variables} to {variable-based stacks of dates}</h3>
+    <div class="container">
+      <div class="animated card date5_var6"><b>Date 5<br>Other<br>variables</b></div>
+      <div class="animated card date5_var5"><b>Date 5<br>Precip</b></div>
+      <div class="animated card date5_var4"><b>Date 5<br>T<sub>max</sub></b></div>
+      <div class="animated card date5_var3"><b>Date 5<br>T<sub>avg</sub></b></div>
+      <div class="animated card date5_var2"><b>Date 5<br>T<sub>min</sub></b></div>
+      <div class="animated card date5_var1"><b>Date 5<br>VI</b></div>
+      <div class="animated card date4_var6"><b>Date 4<br>Other<br>variables</b></div>
+      <div class="animated card date4_var5"><b>Date 4<br>Precip</b></div>
+      <div class="animated card date4_var4"><b>Date 4<br>T<sub>max</sub></b></div>
+      <div class="animated card date4_var3"><b>Date 4<br>T<sub>avg</sub></b></div>
+      <div class="animated card date4_var2"><b>Date 4<br>T<sub>min</sub></b></div>
+      <div class="animated card date4_var1"><b>Date 4<br>VI</b></div>
+      <div class="animated card date3_var6"><b>Date 3<br>Other<br>variables</b></div>
+      <div class="animated card date3_var5"><b>Date 3<br>Precip</b></div>
+      <div class="animated card date3_var4"><b>Date 3<br>T<sub>max</sub></b></div>
+      <div class="animated card date3_var3"><b>Date 3<br>T<sub>avg</sub></b></div>
+      <div class="animated card date3_var2"><b>Date 3<br>T<sub>min</sub></b></div>
+      <div class="animated card date3_var1"><b>Date 3<br>VI</b></div>
+      <div class="animated card date2_var6"><b>Date 2<br>Other<br>variables</b></div>
+      <div class="animated card date2_var5"><b>Date 2<br>Precip</b></div>
+      <div class="animated card date2_var4"><b>Date 2<br>T<sub>max</sub></b></div>
+      <div class="animated card date2_var3"><b>Date 2<br>T<sub>avg</sub></b></div>
+      <div class="animated card date2_var2"><b>Date 2<br>T<sub>min</sub></b></div>
+      <div class="animated card date2_var1"><b>Date 2<br>VI</b></div>
+      <div class="animated card date1_var6"><b>Date 1<br>Other<br>variables</b></div>
+      <div class="animated card date1_var5"><b>Date 1<br>Precip</b></div>
+      <div class="animated card date1_var4"><b>Date 1<br>T<sub>max</sub></b></div>
+      <div class="animated card date1_var3"><b>Date 1<br>T<sub>avg</sub></b></div>
+      <div class="animated card date1_var2"><b>Date 1<br>T<sub>min</sub></b></div>
+      <div class="animated card date1_var1"><b>Date 1<br>VI</b></div>
+    </div>
+  </body>
+</html>

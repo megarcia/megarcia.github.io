@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  width: 900px;
+  height: 600px;
+  position: relative;
+  background: white;
+}
+
+.card {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.vi_card {
+  width: 100px;
+  height: 140px;
+}
+.wxcd_card {
+  width: 400px;
+  height: 300px;
+}
+
+.vi_date1 {
+    background-color: green;
+    animation-name: vi_date1_anim;
+}
+.vi_date2 {
+    background-color: green;
+    animation-name: vi_date2_anim;
+}
+.vi_date3 {
+    background-color: green;
+    animation-name: vi_date3_anim;
+}
+.vi_date4 {
+    background-color: green;
+    animation-name: vi_date4_anim;
+}
+.vi_date5 {
+    background-color: green;
+    animation-name: vi_date5_anim;
+}
+
+.wxcd_date1_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date1_var1_anim;
+}
+.wxcd_date1_var2 {
+    background-color: orange;
+    animation-name: wxcd_date1_var2_anim;
+}
+.wxcd_date1_var3 {
+    background-color: red;
+    animation-name: wxcd_date1_var3_anim;
+}
+.wxcd_date1_var4 {
+    background-color: blue;
+    animation-name: wxcd_date1_var4_anim;
+}
+.wxcd_date1_var5 {
+    background-color: purple;
+    animation-name: wxcd_date1_var5_anim;
+}
+.wxcd_date2_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date2_var1_anim;
+}
+.wxcd_date3_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date3_var1_anim;
+}
+.wxcd_date4_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date4_var1_anim;
+}
+.wxcd_date4_var2 {
+    background-color: orange;
+    animation-name: wxcd_date4_var2_anim;
+}
+.wxcd_date4_var3 {
+    background-color: red;
+    animation-name: wxcd_date4_var3_anim;
+}
+.wxcd_date4_var4 {
+    background-color: blue;
+    animation-name: wxcd_date4_var4_anim;
+}
+.wxcd_date4_var5 {
+    background-color: purple;
+    animation-name: wxcd_date4_var5_anim;
+}
+.wxcd_date5_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date5_var1_anim;
+}
+.wxcd_date6_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date6_var1_anim;
+}
+.wxcd_date7_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date7_var1_anim;
+}
+.wxcd_date8_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date8_var1_anim;
+}
+.wxcd_date9_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date9_var1_anim;
+}
+.wxcd_date9_var2 {
+    background-color: orange;
+    animation-name: wxcd_date9_var2_anim;
+}
+.wxcd_date9_var3 {
+    background-color: red;
+    animation-name: wxcd_date9_var3_anim;
+}
+.wxcd_date9_var4 {
+    background-color: blue;
+    animation-name: wxcd_date9_var4_anim;
+}
+.wxcd_date9_var5 {
+    background-color: purple;
+    animation-name: wxcd_date9_var5_anim;
+}
+.wxcd_date10_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date10_var1_anim;
+}
+.wxcd_date11_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date11_var1_anim;
+}
+.wxcd_date12_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date12_var1_anim;
+}
+.wxcd_date12_var2 {
+    background-color: orange;
+    animation-name: wxcd_date12_var2_anim;
+}
+.wxcd_date12_var3 {
+    background-color: red;
+    animation-name: wxcd_date12_var3_anim;
+}
+.wxcd_date12_var4 {
+    background-color: blue;
+    animation-name: wxcd_date12_var4_anim;
+}
+.wxcd_date12_var5 {
+    background-color: purple;
+    animation-name: wxcd_date12_var5_anim;
+}
+.wxcd_date13_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date13_var1_anim;
+}
+.wxcd_date14_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date14_var1_anim;
+}
+.wxcd_date15_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date15_var1_anim;
+}
+.wxcd_date16_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date16_var1_anim;
+}
+.wxcd_date17_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date17_var1_anim;
+}
+.wxcd_date18_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date18_var1_anim;
+}
+.wxcd_date19_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date19_var1_anim;
+}
+.wxcd_date19_var2 {
+    background-color: orange;
+    animation-name: wxcd_date19_var2_anim;
+}
+.wxcd_date19_var3 {
+    background-color: red;
+    animation-name: wxcd_date19_var3_anim;
+}
+.wxcd_date19_var4 {
+    background-color: blue;
+    animation-name: wxcd_date19_var4_anim;
+}
+.wxcd_date19_var5 {
+    background-color: purple;
+    animation-name: wxcd_date19_var5_anim;
+}
+.wxcd_date20_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date20_var1_anim;
+}
+.wxcd_date21_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date21_var1_anim;
+}
+.wxcd_date22_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date22_var1_anim;
+}
+.wxcd_date23_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date23_var1_anim;
+}
+.wxcd_date24_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date24_var1_anim;
+}
+.wxcd_date24_var2 {
+    background-color: orange;
+    animation-name: wxcd_date24_var2_anim;
+}
+.wxcd_date24_var3 {
+    background-color: red;
+    animation-name: wxcd_date24_var3_anim;
+}
+.wxcd_date24_var4 {
+    background-color: blue;
+    animation-name: wxcd_date24_var4_anim;
+}
+.wxcd_date24_var5 {
+    background-color: purple;
+    animation-name: wxcd_date24_var5_anim;
+}
+.wxcd_date25_var1 {
+    background-color: yellow;
+    animation-name: wxcd_date25_var1_anim;
+}
+
+@keyframes vi_date1_anim {
+    0%   {left:0px; top:60px;}
+    27%  {left:0px; top:60px;}
+    28%  {left:250px; top:250px;}
+    49%  {left:250px; top:250px;}
+    50%  {left:0px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes vi_date2_anim {
+    0%   {left:40px; top:160px;}
+    60%  {left:40px; top:160px;}
+    61%  {left:250px; top:250px;}
+    65%  {left:250px; top:250px;}
+    66%  {left:150px; top:0px;}
+    100% {left:150px; top:0px;}
+}
+@keyframes vi_date3_anim {
+    0%   {left:0px; top:260px;}
+    70%  {left:0px; top:260px;}
+    71%  {left:250px; top:250px;}
+    75%  {left:250px; top:250px;}
+    76%  {left:300px; top:0px;}
+    100% {left:300px; top:0px;}
+}
+@keyframes vi_date4_anim {
+    0%   {left:40px; top:360px;}
+    83%  {left:40px; top:360px;}
+    84%  {left:250px; top:250px;}
+    88%  {left:250px; top:250px;}
+    89%  {left:450px; top:0px;}
+    100% {left:450px; top:0px;}
+}
+@keyframes vi_date5_anim {
+    0%   {left:0px; top:460px;}
+    93%  {left:0px; top:460px;}
+    94%  {left:250px; top:250px;}
+    98%  {left:250px; top:250px;}
+    99%  {left:600px; top:0px;}
+    100% {left:600px; top:0px;}
+}
+
+@keyframes wxcd_date1_var1_anim {
+    0%   {left:420px; top:60px;}
+    20%  {left:420px; top:60px;}
+    21%  {left:2000px; top:60px;}
+    100% {left:2000px; top:60px;}
+}
+@keyframes wxcd_date1_var2_anim {
+    0%   {left:420px; top:60px;}
+    5%   {left:420px; top:60px;}
+    6%   {left:440px; top:60px;}
+    15%  {left:440px; top:60px;}
+    16%  {left:420px; top:60px;}
+    20%  {left:420px; top:60px;}
+    21%  {left:2000px; top:60px;}
+    100% {left:2000px; top:60px;}
+}
+@keyframes wxcd_date1_var3_anim {
+    0%   {left:420px; top:60px;}
+    5%   {left:420px; top:60px;}
+    6%   {left:440px; top:60px;}
+    7%   {left:460px; top:60px;}
+    14%  {left:460px; top:60px;}
+    15%  {left:440px; top:60px;}
+    16%  {left:420px; top:60px;}
+    20%  {left:420px; top:60px;}
+    21%  {left:2000px; top:60px;}
+    100% {left:2000px; top:60px;}
+}
+@keyframes wxcd_date1_var4_anim {
+    0%   {left:420px; top:60px;}
+    5%   {left:420px; top:60px;}
+    6%   {left:440px; top:60px;}
+    7%   {left:460px; top:60px;}
+    8%   {left:480px; top:60px;}
+    13%  {left:480px; top:60px;}
+    14%  {left:460px; top:60px;}
+    15%  {left:440px; top:60px;}
+    16%  {left:420px; top:60px;}
+    20%  {left:420px; top:60px;}
+    21%  {left:2000px; top:60px;}
+    100% {left:2000px; top:60px;}
+}
+@keyframes wxcd_date1_var5_anim {
+    0%   {left:420px; top:60px;}
+    5%   {left:420px; top:60px;}
+    6%   {left:440px; top:60px;}
+    7%   {left:420px; top:60px;}
+    8%   {left:480px; top:60px;}
+    9%   {left:500px; top:60px;}
+    12%  {left:500px; top:60px;}
+    13%  {left:480px; top:60px;}
+    14%  {left:460px; top:60px;}
+    15%  {left:440px; top:60px;}
+    16%  {left:420px; top:60px;}
+    20%  {left:420px; top:60px;}
+    21%  {left:2000px; top:60px;}
+    100% {left:2000px; top:60px;}
+}
+
+@keyframes wxcd_date2_var1_anim {
+    0%   {left:420px; top:70px;}
+    21%  {left:420px; top:70px;}
+    22%  {left:2000px; top:70px;}
+    100% {left:2000px; top:70px;}
+}
+@keyframes wxcd_date3_var1_anim {
+    0%   {left:420px; top:80px;}
+    22%  {left:420px; top:80px;}
+    23%  {left:2000px; top:80px;}
+    100% {left:2000px; top:80px;}
+}
+
+@keyframes wxcd_date4_var1_anim {
+    0%   {left:420px; top:90px;}
+    27%  {left:420px; top:90px;}
+    28%  {left:200px; top:200px;}
+    31%  {width:400px; height:300px; left:200px; top:200px;}
+    32%  {width:100px; height:140px; left:250px; top:250px;}
+    34%  {width:100px; height:140px; left:250px; top:250px;}
+    35%  {width:100px; height:140px; left:250px; top:270px;}
+    46%  {width:100px; height:140px; left:250px; top:270px;}
+    47%  {width:100px; height:140px; left:250px; top:250px;}
+    49%  {width:100px; height:140px; left:250px; top:250px;}
+    50%  {width:100px; height:140px; left:0px; top:0px;}
+    100% {width:100px; height:140px; left:0px; top:0px;}
+}
+@keyframes wxcd_date4_var2_anim {
+    0%   {left:420px; top:90px;}
+    27%  {left:420px; top:90px;}
+    28%  {left:200px; top:200px;}
+    31%  {width:400px; height:300px; left:200px; top:200px;}
+    32%  {width:100px; height:140px; left:250px; top:250px;}
+    34%  {width:100px; height:140px; left:250px; top:250px;}
+    35%  {width:100px; height:140px; left:250px; top:270px;}
+    36%  {width:100px; height:140px; left:250px; top:290px;}
+    45%  {width:100px; height:140px; left:250px; top:290px;}
+    46%  {width:100px; height:140px; left:250px; top:270px;}
+    47%  {width:100px; height:140px; left:250px; top:250px;}
+    49%  {width:100px; height:140px; left:250px; top:250px;}
+    50%  {width:100px; height:140px; left:0px; top:0px;}
+    100% {width:100px; height:140px; left:0px; top:0px;}
+}
+@keyframes wxcd_date4_var3_anim {
+    0%   {left:420px; top:90px;}
+    27%  {left:420px; top:90px;}
+    28%  {left:200px; top:200px;}
+    31%  {width:400px; height:300px; left:200px; top:200px;}
+    32%  {width:100px; height:140px; left:250px; top:250px;}
+    34%  {width:100px; height:140px; left:250px; top:250px;}
+    35%  {width:100px; height:140px; left:250px; top:270px;}
+    36%  {width:100px; height:140px; left:250px; top:290px;}
+    37%  {width:100px; height:140px; left:250px; top:310px;}
+    44%  {width:100px; height:140px; left:250px; top:310px;}
+    45%  {width:100px; height:140px; left:250px; top:290px;}
+    46%  {width:100px; height:140px; left:250px; top:270px;}
+    47%  {width:100px; height:140px; left:250px; top:250px;}
+    49%  {width:100px; height:140px; left:250px; top:250px;}
+    50%  {width:100px; height:140px; left:0px; top:0px;}
+    100% {width:100px; height:140px; left:0px; top:0px;}
+}
+@keyframes wxcd_date4_var4_anim {
+    0%   {left:420px; top:90px;}
+    27%  {left:420px; top:90px;}
+    28%  {left:200px; top:200px;}
+    31%  {width:400px; height:300px; left:200px; top:200px;}
+    32%  {width:100px; height:140px; left:250px; top:250px;}
+    34%  {width:100px; height:140px; left:250px; top:250px;}
+    35%  {width:100px; height:140px; left:250px; top:270px;}
+    36%  {width:100px; height:140px; left:250px; top:290px;}
+    37%  {width:100px; height:140px; left:250px; top:310px;}
+    38%  {width:100px; height:140px; left:250px; top:330px;}
+    43%  {width:100px; height:140px; left:250px; top:330px;}
+    44%  {width:100px; height:140px; left:250px; top:310px;}
+    45%  {width:100px; height:140px; left:250px; top:290px;}
+    46%  {width:100px; height:140px; left:250px; top:270px;}
+    47%  {width:100px; height:140px; left:250px; top:250px;}
+    49%  {width:100px; height:140px; left:250px; top:250px;}
+    50%  {width:100px; height:140px; left:0px; top:0px;}
+    100% {width:100px; height:140px; left:0px; top:0px;}
+}
+@keyframes wxcd_date4_var5_anim {
+    0%   {left:420px; top:90px;}
+    27%  {left:420px; top:90px;}
+    28%  {left:200px; top:200px;}
+    31%  {width:400px; height:300px; left:200px; top:200px;}
+    32%  {width:100px; height:140px; left:250px; top:250px;}
+    34%  {width:100px; height:140px; left:250px; top:250px;}
+    35%  {width:100px; height:140px; left:250px; top:270px;}
+    36%  {width:100px; height:140px; left:250px; top:290px;}
+    37%  {width:100px; height:140px; left:250px; top:310px;}
+    38%  {width:100px; height:140px; left:250px; top:330px;}
+    39%  {width:100px; height:140px; left:250px; top:350px;}
+    42%  {width:100px; height:140px; left:250px; top:350px;}
+    43%  {width:100px; height:140px; left:250px; top:330px;}
+    44%  {width:100px; height:140px; left:250px; top:310px;}
+    45%  {width:100px; height:140px; left:250px; top:290px;}
+    46%  {width:100px; height:140px; left:250px; top:270px;}
+    47%  {width:100px; height:140px; left:250px; top:250px;}
+    49%  {width:100px; height:140px; left:250px; top:250px;}
+    50%  {width:100px; height:140px; left:0px; top:0px;}
+    100% {width:100px; height:140px; left:0px; top:0px;}
+}
+
+@keyframes wxcd_date5_var1_anim {
+    0%   {left:420px; top:100px;}
+    55%  {left:420px; top:100px;}
+    56%  {left:2000px; top:100px;}
+    100% {left:2000px; top:100px;}
+}
+@keyframes wxcd_date6_var1_anim {
+    0%   {left:420px; top:110px;}
+    56%  {left:420px; top:110px;}
+    57%  {left:2000px; top:110px;}
+    100% {left:2000px; top:110px;}
+}
+@keyframes wxcd_date7_var1_anim {
+    0%   {left:420px; top:120px;}
+    57%  {left:420px; top:120px;}
+    58%  {left:2000px; top:120px;}
+    100% {left:2000px; top:120px;}
+}
+@keyframes wxcd_date8_var1_anim {
+    0%   {left:420px; top:130px;}
+    58%  {left:420px; top:130px;}
+    59%  {left:2000px; top:130px;}
+    100% {left:2000px; top:130px;}
+}
+
+@keyframes wxcd_date9_var1_anim {
+    0%   {left:420px; top:140px;}
+    60%  {left:420px; top:140px;}
+    61%  {left:200px; top:200px;}
+    62%  {width:400px; height:300px; left:200px; top:200px;}
+    63%  {width:100px; height:140px; left:250px; top:250px;}
+    64%  {width:100px; height:140px; left:250px; top:270px;}
+    65%  {width:100px; height:140px; left:250px; top:250px;}
+    66%  {width:100px; height:140px; left:150px; top:0px;}
+    100% {width:100px; height:140px; left:150px; top:0px;}
+}
+@keyframes wxcd_date9_var2_anim {
+    0%   {left:420px; top:140px;}
+    60%  {left:420px; top:140px;}
+    61%  {left:200px; top:200px;}
+    62%  {width:400px; height:300px; left:200px; top:200px;}
+    63%  {width:100px; height:140px; left:250px; top:250px;}
+    64%  {width:100px; height:140px; left:250px; top:290px;}
+    65%  {width:100px; height:140px; left:250px; top:250px;}
+    66%  {width:100px; height:140px; left:150px; top:0px;}
+    100% {width:100px; height:140px; left:150px; top:0px;}
+}
+@keyframes wxcd_date9_var3_anim {
+    0%   {left:420px; top:140px;}
+    60%  {left:420px; top:140px;}
+    61%  {left:200px; top:200px;}
+    62%  {width:400px; height:300px; left:200px; top:200px;}
+    63%  {width:100px; height:140px; left:250px; top:250px;}
+    64%  {width:100px; height:140px; left:250px; top:310px;}
+    65%  {width:100px; height:140px; left:250px; top:250px;}
+    66%  {width:100px; height:140px; left:150px; top:0px;}
+    100% {width:100px; height:140px; left:150px; top:0px;}
+}
+@keyframes wxcd_date9_var4_anim {
+    0%   {left:420px; top:140px;}
+    60%  {left:420px; top:140px;}
+    61%  {left:200px; top:200px;}
+    62%  {width:400px; height:300px; left:200px; top:200px;}
+    63%  {width:100px; height:140px; left:250px; top:250px;}
+    64%  {width:100px; height:140px; left:250px; top:330px;}
+    65%  {width:100px; height:140px; left:250px; top:250px;}
+    66%  {width:100px; height:140px; left:150px; top:0px;}
+    100% {width:100px; height:140px; left:150px; top:0px;}
+}
+@keyframes wxcd_date9_var5_anim {
+    0%   {left:420px; top:140px;}
+    60%  {left:420px; top:140px;}
+    61%  {left:200px; top:200px;}
+    62%  {width:400px; height:300px; left:200px; top:200px;}
+    63%  {width:100px; height:140px; left:250px; top:250px;}
+    64%  {width:100px; height:140px; left:250px; top:350px;}
+    65%  {width:100px; height:140px; left:250px; top:250px;}
+    66%  {width:100px; height:140px; left:150px; top:0px;}
+    100% {width:100px; height:140px; left:150px; top:0px;}
+}
+
+@keyframes wxcd_date10_var1_anim {
+    0%   {left:420px; top:150px;}
+    67%  {left:420px; top:150px;}
+    68%  {left:2000px; top:150px;}
+    100% {left:2000px; top:150px;}
+}
+@keyframes wxcd_date11_var1_anim {
+    0%   {left:420px; top:160px;}
+    68%  {left:420px; top:160px;}
+    69%  {left:2000px; top:160px;}
+    100% {left:2000px; top:160px;}
+}
+
+@keyframes wxcd_date12_var1_anim {
+    0%   {left:420px; top:170px;}
+    70%  {left:420px; top:170px;}
+    71%  {left:200px; top:200px;}
+    72%  {width:400px; height:300px; left:200px; top:200px;}
+    73%  {width:100px; height:140px; left:250px; top:250px;}
+    74%  {width:100px; height:140px; left:250px; top:270px;}
+    75%  {width:100px; height:140px; left:250px; top:250px;}
+    76%  {width:100px; height:140px; left:300px; top:0px;}
+    100% {width:100px; height:140px; left:300px; top:0px;}
+}
+@keyframes wxcd_date12_var2_anim {
+    0%   {left:420px; top:170px;}
+    70%  {left:420px; top:170px;}
+    71%  {left:200px; top:200px;}
+    72%  {width:400px; height:300px; left:200px; top:200px;}
+    73%  {width:100px; height:140px; left:250px; top:250px;}
+    74%  {width:100px; height:140px; left:250px; top:290px;}
+    75%  {width:100px; height:140px; left:250px; top:250px;}
+    76%  {width:100px; height:140px; left:300px; top:0px;}
+    100% {width:100px; height:140px; left:300px; top:0px;}
+}
+@keyframes wxcd_date12_var3_anim {
+    0%   {left:420px; top:170px;}
+    70%  {left:420px; top:170px;}
+    71%  {left:200px; top:200px;}
+    72%  {width:400px; height:300px; left:200px; top:200px;}
+    73%  {width:100px; height:140px; left:250px; top:250px;}
+    74%  {width:100px; height:140px; left:250px; top:310px;}
+    75%  {width:100px; height:140px; left:250px; top:250px;}
+    76%  {width:100px; height:140px; left:300px; top:0px;}
+    100% {width:100px; height:140px; left:300px; top:0px;}
+}
+@keyframes wxcd_date12_var4_anim {
+    0%   {left:420px; top:170px;}
+    70%  {left:420px; top:170px;}
+    71%  {left:200px; top:200px;}
+    72%  {width:400px; height:300px; left:200px; top:200px;}
+    73%  {width:100px; height:140px; left:250px; top:250px;}
+    74%  {width:100px; height:140px; left:250px; top:330px;}
+    75%  {width:100px; height:140px; left:250px; top:250px;}
+    76%  {width:100px; height:140px; left:300px; top:0px;}
+    100% {width:100px; height:140px; left:300px; top:0px;}
+}
+@keyframes wxcd_date12_var5_anim {
+    0%   {left:420px; top:170px;}
+    70%  {left:420px; top:170px;}
+    71%  {left:200px; top:200px;}
+    72%  {width:400px; height:300px; left:200px; top:200px;}
+    73%  {width:100px; height:140px; left:250px; top:250px;}
+    74%  {width:100px; height:140px; left:250px; top:350px;}
+    75%  {width:100px; height:140px; left:250px; top:250px;}
+    76%  {width:100px; height:140px; left:300px; top:0px;}
+    100% {width:100px; height:140px; left:300px; top:0px;}
+}
+
+@keyframes wxcd_date13_var1_anim {
+    0%   {left:420px; top:180px;}
+    76%  {left:420px; top:180px;}
+    77%  {left:2000px; top:180px;}
+    100% {left:2000px; top:180px;}
+}
+@keyframes wxcd_date14_var1_anim {
+    0%   {left:420px; top:190px;}
+    77%  {left:420px; top:190px;}
+    78%  {left:2000px; top:190px;}
+    100% {left:2000px; top:190px;}
+}
+@keyframes wxcd_date15_var1_anim {
+    0%   {left:420px; top:200px;}
+    78%  {left:420px; top:200px;}
+    79%  {left:2000px; top:200px;}
+    100% {left:2000px; top:200px;}
+}
+@keyframes wxcd_date16_var1_anim {
+    0%   {left:420px; top:210px;}
+    79%  {left:420px; top:210px;}
+    80%  {left:2000px; top:210px;}
+    100% {left:2000px; top:210px;}
+}
+@keyframes wxcd_date17_var1_anim {
+    0%   {left:420px; top:220px;}
+    80%  {left:420px; top:220px;}
+    81%  {left:2000px; top:220px;}
+    100% {left:2000px; top:220px;}
+}
+@keyframes wxcd_date18_var1_anim {
+    0%   {left:420px; top:230px;}
+    81%  {left:420px; top:230px;}
+    82%  {left:2000px; top:230px;}
+    100% {left:2000px; top:230px;}
+}
+
+@keyframes wxcd_date19_var1_anim {
+    0%   {left:420px; top:240px;}
+    83%  {left:420px; top:240px;}
+    84%  {left:200px; top:200px;}
+    85%  {width:400px; height:300px; left:200px; top:200px;}
+    86%  {width:100px; height:140px; left:250px; top:250px;}
+    87%  {width:100px; height:140px; left:250px; top:270px;}
+    88%  {width:100px; height:140px; left:250px; top:250px;}
+    89%  {width:100px; height:140px; left:450px; top:0px;}
+    100% {width:100px; height:140px; left:450px; top:0px;}
+}
+@keyframes wxcd_date19_var2_anim {
+    0%   {left:420px; top:240px;}
+    83%  {left:420px; top:240px;}
+    84%  {left:200px; top:200px;}
+    85%  {width:400px; height:300px; left:200px; top:200px;}
+    86%  {width:100px; height:140px; left:250px; top:250px;}
+    87%  {width:100px; height:140px; left:250px; top:290px;}
+    88%  {width:100px; height:140px; left:250px; top:250px;}
+    89%  {width:100px; height:140px; left:450px; top:0px;}
+    100% {width:100px; height:140px; left:450px; top:0px;}
+}
+@keyframes wxcd_date19_var3_anim {
+    0%   {left:420px; top:240px;}
+    83%  {left:420px; top:240px;}
+    84%  {left:200px; top:200px;}
+    85%  {width:400px; height:300px; left:200px; top:200px;}
+    86%  {width:100px; height:140px; left:250px; top:250px;}
+    87%  {width:100px; height:140px; left:250px; top:310px;}
+    88%  {width:100px; height:140px; left:250px; top:250px;}
+    89%  {width:100px; height:140px; left:450px; top:0px;}
+    100% {width:100px; height:140px; left:450px; top:0px;}
+}
+@keyframes wxcd_date19_var4_anim {
+    0%   {left:420px; top:240px;}
+    83%  {left:420px; top:240px;}
+    84%  {left:200px; top:200px;}
+    85%  {width:400px; height:300px; left:200px; top:200px;}
+    86%  {width:100px; height:140px; left:250px; top:250px;}
+    87%  {width:100px; height:140px; left:250px; top:330px;}
+    88%  {width:100px; height:140px; left:250px; top:250px;}
+    89%  {width:100px; height:140px; left:450px; top:0px;}
+    100% {width:100px; height:140px; left:450px; top:0px;}
+}
+@keyframes wxcd_date19_var5_anim {
+    0%   {left:420px; top:240px;}
+    83%  {left:420px; top:240px;}
+    84%  {left:200px; top:200px;}
+    85%  {width:400px; height:300px; left:200px; top:200px;}
+    86%  {width:100px; height:140px; left:250px; top:250px;}
+    87%  {width:100px; height:140px; left:250px; top:350px;}
+    88%  {width:100px; height:140px; left:250px; top:250px;}
+    89%  {width:100px; height:140px; left:450px; top:0px;}
+    100% {width:100px; height:140px; left:450px; top:0px;}
+}
+
+@keyframes wxcd_date20_var1_anim {
+    0%   {left:420px; top:250px;}
+    89%  {left:420px; top:250px;}
+    90%  {left:2000px; top:250px;}
+    100% {left:2000px; top:250px;}
+}
+@keyframes wxcd_date21_var1_anim {
+    0%   {left:420px; top:260px;}
+    90%  {left:420px; top:260px;}
+    91%  {left:2000px; top:260px;}
+    100% {left:2000px; top:260px;}
+}
+@keyframes wxcd_date22_var1_anim {
+    0%   {left:420px; top:270px;}
+    91%  {left:420px; top:270px;}
+    92%  {left:2000px; top:270px;}
+    100% {left:2000px; top:270px;}
+}
+@keyframes wxcd_date23_var1_anim {
+    0%   {left:420px; top:280px;}
+    92%  {left:420px; top:280px;}
+    93%  {left:2000px; top:280px;}
+    100% {left:2000px; top:280px;}
+}
+
+@keyframes wxcd_date24_var1_anim {
+    0%   {left:420px; top:290px;}
+    93%  {left:420px; top:290px;}
+    94%  {left:200px; top:200px;}
+    95%  {width:400px; height:300px; left:200px; top:200px;}
+    96%  {width:100px; height:140px; left:250px; top:250px;}
+    97%  {width:100px; height:140px; left:250px; top:270px;}
+    98%  {width:100px; height:140px; left:250px; top:250px;}
+    99%  {width:100px; height:140px; left:600px; top:0px;}
+    100% {width:100px; height:140px; left:600px; top:0px;}
+}
+@keyframes wxcd_date24_var2_anim {
+    0%   {left:420px; top:290px;}
+    93%  {left:420px; top:290px;}
+    94%  {left:200px; top:200px;}
+    95%  {width:400px; height:300px; left:200px; top:200px;}
+    96%  {width:100px; height:140px; left:250px; top:250px;}
+    97%  {width:100px; height:140px; left:250px; top:290px;}
+    98%  {width:100px; height:140px; left:250px; top:250px;}
+    99%  {width:100px; height:140px; left:600px; top:0px;}
+    100% {width:100px; height:140px; left:600px; top:0px;}
+}
+@keyframes wxcd_date24_var3_anim {
+    0%   {left:420px; top:290px;}
+    93%  {left:420px; top:290px;}
+    94%  {left:200px; top:200px;}
+    95%  {width:400px; height:300px; left:200px; top:200px;}
+    96%  {width:100px; height:140px; left:250px; top:250px;}
+    97%  {width:100px; height:140px; left:250px; top:310px;}
+    98%  {width:100px; height:140px; left:250px; top:250px;}
+    99%  {width:100px; height:140px; left:600px; top:0px;}
+    100% {width:100px; height:140px; left:600px; top:0px;}
+}
+@keyframes wxcd_date24_var4_anim {
+    0%   {left:420px; top:290px;}
+    93%  {left:420px; top:290px;}
+    94%  {left:200px; top:200px;}
+    95%  {width:400px; height:300px; left:200px; top:200px;}
+    96%  {width:100px; height:140px; left:250px; top:250px;}
+    97%  {width:100px; height:140px; left:250px; top:330px;}
+    98%  {width:100px; height:140px; left:250px; top:250px;}
+    99%  {width:100px; height:140px; left:600px; top:0px;}
+    100% {width:100px; height:140px; left:600px; top:0px;}
+}
+@keyframes wxcd_date24_var5_anim {
+    0%   {left:420px; top:290px;}
+    93%  {left:420px; top:290px;}
+    94%  {left:200px; top:200px;}
+    95%  {width:400px; height:300px; left:200px; top:200px;}
+    96%  {width:100px; height:140px; left:250px; top:250px;}
+    97%  {width:100px; height:140px; left:250px; top:350px;}
+    98%  {width:100px; height:140px; left:250px; top:250px;}
+    99%  {width:100px; height:140px; left:600px; top:0px;}
+    100% {width:100px; height:140px; left:600px; top:0px;}
+}
+
+@keyframes wxcd_date25_var1_anim {
+    0%   {left:420px; top:300px;}
+    99%  {left:420px; top:300px;}
+    100% {left:2000px; top:300px;}
+}
+
+</style>
+</head>
+  <body>
+    <h2>Merge</h2>
+    <h3>{Landsat datasets} + {WxCD datasets} = {contemporaneous colocated variables}</h3>
+    <div class="container">
+      <div class="animated card wxcd_card wxcd_date25_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date24_var5"><b>Year<br>DOY<br>Other<br>variables</b></div>
+      <div class="animated card wxcd_card wxcd_date24_var4"><b>Year<br>DOY<br>Precip</b></div>
+      <div class="animated card wxcd_card wxcd_date24_var3"><b>Year<br>DOY<br>T<sub>max</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date24_var2"><b>Year<br>DOY<br>T<sub>avg</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date24_var1"><b>Year<br>DOY<br>T<sub>min</sub><br><br>Matches Date 5</b></div>
+      <div class="animated card wxcd_card wxcd_date23_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date22_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date21_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date20_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date19_var5"><b>Year<br>DOY<br>Other<br>variables</b></div>
+      <div class="animated card wxcd_card wxcd_date19_var4"><b>Year<br>DOY<br>Precip</b></div>
+      <div class="animated card wxcd_card wxcd_date19_var3"><b>Year<br>DOY<br>T<sub>max</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date19_var2"><b>Year<br>DOY<br>T<sub>avg</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date19_var1"><b>Year<br>DOY<br>T<sub>min</sub><br><br>Matches Date 4</b></div>
+      <div class="animated card wxcd_card wxcd_date18_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date17_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date16_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date15_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date14_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date13_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date12_var5"><b>Year<br>DOY<br>Other<br>variables</b></div>
+      <div class="animated card wxcd_card wxcd_date12_var4"><b>Year<br>DOY<br>Precip</b></div>
+      <div class="animated card wxcd_card wxcd_date12_var3"><b>Year<br>DOY<br>T<sub>max</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date12_var2"><b>Year<br>DOY<br>T<sub>avg</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date12_var1"><b>Year<br>DOY<br>T<sub>min</sub><br><br>Matches Date 3</b></div>
+      <div class="animated card wxcd_card wxcd_date11_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date10_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date9_var5"><b>Year<br>DOY<br>Other<br>variables</b></div>
+      <div class="animated card wxcd_card wxcd_date9_var4"><b>Year<br>DOY<br>Precip</b></div>
+      <div class="animated card wxcd_card wxcd_date9_var3"><b>Year<br>DOY<br>T<sub>max</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date9_var2"><b>Year<br>DOY<br>T<sub>avg</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date9_var1"><b>Year<br>DOY<br>T<sub>min</sub><br><br>Matches Date 2</b></div>
+      <div class="animated card wxcd_card wxcd_date8_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date7_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date6_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date5_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date4_var5"><b>Year<br>DOY<br>Other<br>variables</b></div>
+      <div class="animated card wxcd_card wxcd_date4_var4"><b>Year<br>DOY<br>Precip</b></div>
+      <div class="animated card wxcd_card wxcd_date4_var3"><b>Year<br>DOY<br>T<sub>max</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date4_var2"><b>Year<br>DOY<br>T<sub>avg</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date4_var1"><b>Year<br>DOY<br>T<sub>min</sub><br><br>Matches Date 1</b></div>
+      <div class="animated card wxcd_card wxcd_date3_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date2_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date1_var5"><b>Year<br>DOY<br>Other<br>variables</b></div>
+      <div class="animated card wxcd_card wxcd_date1_var4"><b>Year<br>DOY<br>Precip</b></div>
+      <div class="animated card wxcd_card wxcd_date1_var3"><b>Year<br>DOY<br>T<sub>max</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date1_var2"><b>Year<br>DOY<br>T<sub>avg</sub></b></div>
+      <div class="animated card wxcd_card wxcd_date1_var1"><b>Year<br>DOY<br>T<sub>min</sub></b></div>
+      <div class="animated card vi_card vi_date5"><b>Date 5<br>VI</b></div>
+      <div class="animated card vi_card vi_date4"><b>Date 4<br>VI</b></div>
+      <div class="animated card vi_card vi_date3"><b>Date 3<br>VI</b></div>
+      <div class="animated card vi_card vi_date2"><b>Date 2<br>VI</b></div>
+      <div class="animated card vi_card vi_date1"><b>Date 1<br>VI</b></div>
+    </div>
+  </body>
+</html>

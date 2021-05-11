@@ -1,0 +1,6525 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  width: 900px;
+  height: 600px;
+  position: relative;
+  background: white;
+}
+
+.card {
+    position: absolute;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.grid {
+    width: 32px;
+    height: 20px;
+    border: 1px solid black;
+}
+.collection {
+    width: 30px;
+    height: 22px;
+    border: 2px solid black;
+}
+
+.wxcd_date1_collection {
+    left: 8px;
+    top: 8px;
+    animation-name: wxcd_date1_collection_anim;
+}
+.wxcd_date2_collection {
+    left: 8px;
+    top: 35px;
+    animation-name: wxcd_date2_collection_anim;
+}
+.wxcd_date3_collection {
+    left: 8px;
+    top: 62px;
+    animation-name: wxcd_date3_collection_anim;
+}
+.wxcd_date4_collection {
+    left: 8px;
+    top: 89px;
+    animation-name: wxcd_date4_collection_anim;
+}
+.wxcd_date5_collection {
+    left: 8px;
+    top: 116px;
+    animation-name: wxcd_date5_collection_anim;
+}
+.wxcd_date6_collection {
+    left: 8px;
+    top: 143px;
+    animation-name: wxcd_date6_collection_anim;
+}
+.wxcd_date7_collection {
+    left: 8px;
+    top: 170px;
+    animation-name: wxcd_date7_collection_anim;
+}
+.wxcd_date8_collection {
+    left: 8px;
+    top: 197px;
+    animation-name: wxcd_date8_collection_anim;
+}
+.wxcd_date9_collection {
+    left: 8px;
+    top: 224px;
+    animation-name: wxcd_date9_collection_anim;
+}
+.wxcd_date10_collection {
+    left: 8px;
+    top: 251px;
+    animation-name: wxcd_date10_collection_anim;
+}
+.wxcd_date11_collection {
+    left: 8px;
+    top: 278px;
+    animation-name: wxcd_date11_collection_anim;
+}
+.wxcd_date12_collection {
+    left: 8px;
+    top: 305px;
+    animation-name: wxcd_date12_collection_anim;
+}
+.wxcd_date13_collection {
+    left: 8px;
+    top: 332px;
+    animation-name: wxcd_date13_collection_anim;
+}
+.wxcd_date14_collection {
+    left: 8px;
+    top: 359px;
+    animation-name: wxcd_date14_collection_anim;
+}
+.wxcd_date15_collection {
+    left: 8px;
+    top: 386px;
+    animation-name: wxcd_date15_collection_anim;
+}
+.wxcd_date16_collection {
+    left: 8px;
+    top: 413px;
+    animation-name: wxcd_date16_collection_anim;
+}
+.wxcd_date17_collection {
+    left: 8px;
+    top: 440px;
+    animation-name: wxcd_date17_collection_anim;
+}
+.wxcd_date18_collection {
+    left: 8px;
+    top: 467px;
+    animation-name: wxcd_date18_collection_anim;
+}
+.wxcd_date19_collection {
+    left: 8px;
+    top: 494px;
+    animation-name: wxcd_date19_collection_anim;
+}
+.wxcd_date20_collection {
+    left: 8px;
+    top: 521px;
+    animation-name: wxcd_date20_collection_anim;
+}
+
+.wxcd_date1_var1 {
+    left: 10px;
+    top: 10px;
+    animation-name: wxcd_date1_var1_anim;
+}
+.wxcd_date1_var2 {
+    left: 45px;
+    top: 10px;
+    animation-name: wxcd_date1_var2_anim;
+}
+.wxcd_date1_var3 {
+    left: 80px;
+    top: 10px;
+    animation-name: wxcd_date1_var3_anim;
+}
+.wxcd_date1_var4 {
+    left: 115px;
+    top: 10px;
+    animation-name: wxcd_date1_var4_anim;
+}
+.wxcd_date1_var5 {
+    left: 150px;
+    top: 10px;
+    animation-name: wxcd_date1_var5_anim;
+}
+.wxcd_date1_var6 {
+    left: 185px;
+    top: 10px;
+    animation-name: wxcd_date1_var6_anim;
+}
+.wxcd_date1_var7 {
+    left: 220px;
+    top: 10px;
+    animation-name: wxcd_date1_var7_anim;
+}
+.wxcd_date1_var8 {
+    left: 255px;
+    top: 10px;
+    animation-name: wxcd_date1_var8_anim;
+}
+.wxcd_date1_var9 {
+    left: 290px;
+    top: 10px;
+    animation-name: wxcd_date1_var9_anim;
+}
+.wxcd_date1_var10 {
+    left: 325px;
+    top: 10px;
+    animation-name: wxcd_date1_var10_anim;
+}
+.wxcd_date1_var11 {
+    left: 360px;
+    top: 10px;
+    animation-name: wxcd_date1_var11_anim;
+}
+.wxcd_date1_var12 {
+    left: 395px;
+    top: 10px;
+    animation-name: wxcd_date1_var12_anim;
+}
+.wxcd_date1_var13 {
+    left: 430px;
+    top: 10px;
+    animation-name: wxcd_date1_var13_anim;
+}
+.wxcd_date1_var14 {
+    left: 465px;
+    top: 10px;
+    animation-name: wxcd_date1_var14_anim;
+}
+.wxcd_date1_var15 {
+    left: 500px;
+    top: 10px;
+    animation-name: wxcd_date1_var15_anim;
+}
+.wxcd_date1_var16 {
+    left: 535px;
+    top: 10px;
+    animation-name: wxcd_date1_var16_anim;
+}
+.wxcd_date1_var17 {
+    left: 570px;
+    top: 10px;
+    animation-name: wxcd_date1_var17_anim;
+}
+.wxcd_date1_var18 {
+    left: 605px;
+    top: 10px;
+    animation-name: wxcd_date1_var18_anim;
+}
+.wxcd_date1_var19 {
+    left: 640px;
+    top: 10px;
+    animation-name: wxcd_date1_var19_anim;
+}
+.wxcd_date1_var20 {
+    left: 675px;
+    top: 10px;
+    animation-name: wxcd_date1_var20_anim;
+}
+.wxcd_date1_var21 {
+    left: 710px;
+    top: 10px;
+    animation-name: wxcd_date1_var21_anim;
+}
+.wxcd_date1_var22 {
+    left: 745px;
+    top: 10px;
+    animation-name: wxcd_date1_var22_anim;
+}
+.wxcd_date1_var23 {
+    left: 780px;
+    top: 10px;
+    animation-name: wxcd_date1_var23_anim;
+}
+.wxcd_date1_var24 {
+    left: 815px;
+    top: 10px;
+    animation-name: wxcd_date1_var24_anim;
+}
+.wxcd_date2_var1 {
+    left: 10px;
+    top: 37px;
+    animation-name: wxcd_date2_var1_anim;
+}
+.wxcd_date2_var2 {
+    left: 45px;
+    top: 37px;
+    animation-name: wxcd_date2_var2_anim;
+}
+.wxcd_date2_var3 {
+    left: 80px;
+    top: 37px;
+    animation-name: wxcd_date2_var3_anim;
+}
+.wxcd_date2_var4 {
+    left: 115px;
+    top: 37px;
+    animation-name: wxcd_date2_var4_anim;
+}
+.wxcd_date2_var5 {
+    left: 150px;
+    top: 37px;
+    animation-name: wxcd_date2_var5_anim;
+}
+.wxcd_date2_var6 {
+    left: 185px;
+    top: 37px;
+    animation-name: wxcd_date2_var6_anim;
+}
+.wxcd_date2_var7 {
+    left: 220px;
+    top: 37px;
+    animation-name: wxcd_date2_var7_anim;
+}
+.wxcd_date2_var8 {
+    left: 255px;
+    top: 37px;
+    animation-name: wxcd_date2_var8_anim;
+}
+.wxcd_date2_var9 {
+    left: 290px;
+    top: 37px;
+    animation-name: wxcd_date2_var9_anim;
+}
+.wxcd_date2_var10 {
+    left: 325px;
+    top: 37px;
+    animation-name: wxcd_date2_var10_anim;
+}
+.wxcd_date2_var11 {
+    left: 360px;
+    top: 37px;
+    animation-name: wxcd_date2_var11_anim;
+}
+.wxcd_date2_var12 {
+    left: 395px;
+    top: 37px;
+    animation-name: wxcd_date2_var12_anim;
+}
+.wxcd_date2_var13 {
+    left: 430px;
+    top: 37px;
+    animation-name: wxcd_date2_var13_anim;
+}
+.wxcd_date2_var14 {
+    left: 465px;
+    top: 37px;
+    animation-name: wxcd_date2_var14_anim;
+}
+.wxcd_date2_var15 {
+    left: 500px;
+    top: 37px;
+    animation-name: wxcd_date2_var15_anim;
+}
+.wxcd_date2_var16 {
+    left: 535px;
+    top: 37px;
+    animation-name: wxcd_date2_var16_anim;
+}
+.wxcd_date2_var17 {
+    left: 570px;
+    top: 37px;
+    animation-name: wxcd_date2_var17_anim;
+}
+.wxcd_date2_var18 {
+    left: 605px;
+    top: 37px;
+    animation-name: wxcd_date2_var18_anim;
+}
+.wxcd_date2_var19 {
+    left: 640px;
+    top: 37px;
+    animation-name: wxcd_date2_var19_anim;
+}
+.wxcd_date2_var20 {
+    left: 675px;
+    top: 37px;
+    animation-name: wxcd_date2_var20_anim;
+}
+.wxcd_date2_var21 {
+    left: 710px;
+    top: 37px;
+    animation-name: wxcd_date2_var21_anim;
+}
+.wxcd_date2_var22 {
+    left: 745px;
+    top: 37px;
+    animation-name: wxcd_date2_var22_anim;
+}
+.wxcd_date2_var23 {
+    left: 780px;
+    top: 37px;
+    animation-name: wxcd_date2_var23_anim;
+}
+.wxcd_date2_var24 {
+    left: 815px;
+    top: 37px;
+    animation-name: wxcd_date2_var24_anim;
+}
+.wxcd_date3_var1 {
+    left: 10px;
+    top: 64px;
+    animation-name: wxcd_date3_var1_anim;
+}
+.wxcd_date3_var2 {
+    left: 45px;
+    top: 64px;
+    animation-name: wxcd_date3_var2_anim;
+}
+.wxcd_date3_var3 {
+    left: 80px;
+    top: 64px;
+    animation-name: wxcd_date3_var3_anim;
+}
+.wxcd_date3_var4 {
+    left: 115px;
+    top: 64px;
+    animation-name: wxcd_date3_var4_anim;
+}
+.wxcd_date3_var5 {
+    left: 150px;
+    top: 64px;
+    animation-name: wxcd_date3_var5_anim;
+}
+.wxcd_date3_var6 {
+    left: 185px;
+    top: 64px;
+    animation-name: wxcd_date3_var6_anim;
+}
+.wxcd_date3_var7 {
+    left: 220px;
+    top: 64px;
+    animation-name: wxcd_date3_var7_anim;
+}
+.wxcd_date3_var8 {
+    left: 255px;
+    top: 64px;
+    animation-name: wxcd_date3_var8_anim;
+}
+.wxcd_date3_var9 {
+    left: 290px;
+    top: 64px;
+    animation-name: wxcd_date3_var9_anim;
+}
+.wxcd_date3_var10 {
+    left: 325px;
+    top: 64px;
+    animation-name: wxcd_date3_var10_anim;
+}
+.wxcd_date3_var11 {
+    left: 360px;
+    top: 64px;
+    animation-name: wxcd_date3_var11_anim;
+}
+.wxcd_date3_var12 {
+    left: 395px;
+    top: 64px;
+    animation-name: wxcd_date3_var12_anim;
+}
+.wxcd_date3_var13 {
+    left: 430px;
+    top: 64px;
+    animation-name: wxcd_date3_var13_anim;
+}
+.wxcd_date3_var14 {
+    left: 465px;
+    top: 64px;
+    animation-name: wxcd_date3_var14_anim;
+}
+.wxcd_date3_var15 {
+    left: 500px;
+    top: 64px;
+    animation-name: wxcd_date3_var15_anim;
+}
+.wxcd_date3_var16 {
+    left: 535px;
+    top: 64px;
+    animation-name: wxcd_date3_var16_anim;
+}
+.wxcd_date3_var17 {
+    left: 570px;
+    top: 64px;
+    animation-name: wxcd_date3_var17_anim;
+}
+.wxcd_date3_var18 {
+    left: 605px;
+    top: 64px;
+    animation-name: wxcd_date3_var18_anim;
+}
+.wxcd_date3_var19 {
+    left: 640px;
+    top: 64px;
+    animation-name: wxcd_date3_var19_anim;
+}
+.wxcd_date3_var20 {
+    left: 675px;
+    top: 64px;
+    animation-name: wxcd_date3_var20_anim;
+}
+.wxcd_date3_var21 {
+    left: 710px;
+    top: 64px;
+    animation-name: wxcd_date3_var21_anim;
+}
+.wxcd_date3_var22 {
+    left: 745px;
+    top: 64px;
+    animation-name: wxcd_date3_var22_anim;
+}
+.wxcd_date3_var23 {
+    left: 780px;
+    top: 64px;
+    animation-name: wxcd_date3_var23_anim;
+}
+.wxcd_date3_var24 {
+    left: 815px;
+    top: 64px;
+    animation-name: wxcd_date3_var24_anim;
+}
+.wxcd_date4_var1 {
+    left: 10px;
+    top: 91px;
+    animation-name: wxcd_date4_var1_anim;
+}
+.wxcd_date4_var2 {
+    left: 45px;
+    top: 91px;
+    animation-name: wxcd_date4_var2_anim;
+}
+.wxcd_date4_var3 {
+    left: 80px;
+    top: 91px;
+    animation-name: wxcd_date4_var3_anim;
+}
+.wxcd_date4_var4 {
+    left: 115px;
+    top: 91px;
+    animation-name: wxcd_date4_var4_anim;
+}
+.wxcd_date4_var5 {
+    left: 150px;
+    top: 91px;
+    animation-name: wxcd_date4_var5_anim;
+}
+.wxcd_date4_var6 {
+    left: 185px;
+    top: 91px;
+    animation-name: wxcd_date4_var6_anim;
+}
+.wxcd_date4_var7 {
+    left: 220px;
+    top: 91px;
+    animation-name: wxcd_date4_var7_anim;
+}
+.wxcd_date4_var8 {
+    left: 255px;
+    top: 91px;
+    animation-name: wxcd_date4_var8_anim;
+}
+.wxcd_date4_var9 {
+    left: 290px;
+    top: 91px;
+    animation-name: wxcd_date4_var9_anim;
+}
+.wxcd_date4_var10 {
+    left: 325px;
+    top: 91px;
+    animation-name: wxcd_date4_var10_anim;
+}
+.wxcd_date4_var11 {
+    left: 360px;
+    top: 91px;
+    animation-name: wxcd_date4_var11_anim;
+}
+.wxcd_date4_var12 {
+    left: 395px;
+    top: 91px;
+    animation-name: wxcd_date4_var12_anim;
+}
+.wxcd_date4_var13 {
+    left: 430px;
+    top: 91px;
+    animation-name: wxcd_date4_var13_anim;
+}
+.wxcd_date4_var14 {
+    left: 465px;
+    top: 91px;
+    animation-name: wxcd_date4_var14_anim;
+}
+.wxcd_date4_var15 {
+    left: 500px;
+    top: 91px;
+    animation-name: wxcd_date4_var15_anim;
+}
+.wxcd_date4_var16 {
+    left: 535px;
+    top: 91px;
+    animation-name: wxcd_date4_var16_anim;
+}
+.wxcd_date4_var17 {
+    left: 570px;
+    top: 91px;
+    animation-name: wxcd_date4_var17_anim;
+}
+.wxcd_date4_var18 {
+    left: 605px;
+    top: 91px;
+    animation-name: wxcd_date4_var18_anim;
+}
+.wxcd_date4_var19 {
+    left: 640px;
+    top: 91px;
+    animation-name: wxcd_date4_var19_anim;
+}
+.wxcd_date4_var20 {
+    left: 675px;
+    top: 91px;
+    animation-name: wxcd_date4_var20_anim;
+}
+.wxcd_date4_var21 {
+    left: 710px;
+    top: 91px;
+    animation-name: wxcd_date4_var21_anim;
+}
+.wxcd_date4_var22 {
+    left: 745px;
+    top: 91px;
+    animation-name: wxcd_date4_var22_anim;
+}
+.wxcd_date4_var23 {
+    left: 780px;
+    top: 91px;
+    animation-name: wxcd_date4_var23_anim;
+}
+.wxcd_date4_var24 {
+    left: 815px;
+    top: 91px;
+    animation-name: wxcd_date4_var24_anim;
+}
+.wxcd_date5_var1 {
+    left: 10px;
+    top: 118px;
+    animation-name: wxcd_date5_var1_anim;
+}
+.wxcd_date5_var2 {
+    left: 45px;
+    top: 118px;
+    animation-name: wxcd_date5_var2_anim;
+}
+.wxcd_date5_var3 {
+    left: 80px;
+    top: 118px;
+    animation-name: wxcd_date5_var3_anim;
+}
+.wxcd_date5_var4 {
+    left: 115px;
+    top: 118px;
+    animation-name: wxcd_date5_var4_anim;
+}
+.wxcd_date5_var5 {
+    left: 150px;
+    top: 118px;
+    animation-name: wxcd_date5_var5_anim;
+}
+.wxcd_date5_var6 {
+    left: 185px;
+    top: 118px;
+    animation-name: wxcd_date5_var6_anim;
+}
+.wxcd_date5_var7 {
+    left: 220px;
+    top: 118px;
+    animation-name: wxcd_date5_var7_anim;
+}
+.wxcd_date5_var8 {
+    left: 255px;
+    top: 118px;
+    animation-name: wxcd_date5_var8_anim;
+}
+.wxcd_date5_var9 {
+    left: 290px;
+    top: 118px;
+    animation-name: wxcd_date5_var9_anim;
+}
+.wxcd_date5_var10 {
+    left: 325px;
+    top: 118px;
+    animation-name: wxcd_date5_var10_anim;
+}
+.wxcd_date5_var11 {
+    left: 360px;
+    top: 118px;
+    animation-name: wxcd_date5_var11_anim;
+}
+.wxcd_date5_var12 {
+    left: 395px;
+    top: 118px;
+    animation-name: wxcd_date5_var12_anim;
+}
+.wxcd_date5_var13 {
+    left: 430px;
+    top: 118px;
+    animation-name: wxcd_date5_var13_anim;
+}
+.wxcd_date5_var14 {
+    left: 465px;
+    top: 118px;
+    animation-name: wxcd_date5_var14_anim;
+}
+.wxcd_date5_var15 {
+    left: 500px;
+    top: 118px;
+    animation-name: wxcd_date5_var15_anim;
+}
+.wxcd_date5_var16 {
+    left: 535px;
+    top: 118px;
+    animation-name: wxcd_date5_var16_anim;
+}
+.wxcd_date5_var17 {
+    left: 570px;
+    top: 118px;
+    animation-name: wxcd_date5_var17_anim;
+}
+.wxcd_date5_var18 {
+    left: 605px;
+    top: 118px;
+    animation-name: wxcd_date5_var18_anim;
+}
+.wxcd_date5_var19 {
+    left: 640px;
+    top: 118px;
+    animation-name: wxcd_date5_var19_anim;
+}
+.wxcd_date5_var20 {
+    left: 675px;
+    top: 118px;
+    animation-name: wxcd_date5_var20_anim;
+}
+.wxcd_date5_var21 {
+    left: 710px;
+    top: 118px;
+    animation-name: wxcd_date5_var21_anim;
+}
+.wxcd_date5_var22 {
+    left: 745px;
+    top: 118px;
+    animation-name: wxcd_date5_var22_anim;
+}
+.wxcd_date5_var23 {
+    left: 780px;
+    top: 118px;
+    animation-name: wxcd_date5_var23_anim;
+}
+.wxcd_date5_var24 {
+    left: 815px;
+    top: 118px;
+    animation-name: wxcd_date5_var24_anim;
+}
+.wxcd_date6_var1 {
+    left: 10px;
+    top: 145px;
+    animation-name: wxcd_date6_var1_anim;
+}
+.wxcd_date6_var2 {
+    left: 45px;
+    top: 145px;
+    animation-name: wxcd_date6_var2_anim;
+}
+.wxcd_date6_var3 {
+    left: 80px;
+    top: 145px;
+    animation-name: wxcd_date6_var3_anim;
+}
+.wxcd_date6_var4 {
+    left: 115px;
+    top: 145px;
+    animation-name: wxcd_date6_var4_anim;
+}
+.wxcd_date6_var5 {
+    left: 150px;
+    top: 145px;
+    animation-name: wxcd_date6_var5_anim;
+}
+.wxcd_date6_var6 {
+    left: 185px;
+    top: 145px;
+    animation-name: wxcd_date6_var6_anim;
+}
+.wxcd_date6_var7 {
+    left: 220px;
+    top: 145px;
+    animation-name: wxcd_date6_var7_anim;
+}
+.wxcd_date6_var8 {
+    left: 255px;
+    top: 145px;
+    animation-name: wxcd_date6_var8_anim;
+}
+.wxcd_date6_var9 {
+    left: 290px;
+    top: 145px;
+    animation-name: wxcd_date6_var9_anim;
+}
+.wxcd_date6_var10 {
+    left: 325px;
+    top: 145px;
+    animation-name: wxcd_date6_var10_anim;
+}
+.wxcd_date6_var11 {
+    left: 360px;
+    top: 145px;
+    animation-name: wxcd_date6_var11_anim;
+}
+.wxcd_date6_var12 {
+    left: 395px;
+    top: 145px;
+    animation-name: wxcd_date6_var12_anim;
+}
+.wxcd_date6_var13 {
+    left: 430px;
+    top: 145px;
+    animation-name: wxcd_date6_var13_anim;
+}
+.wxcd_date6_var14 {
+    left: 465px;
+    top: 145px;
+    animation-name: wxcd_date6_var14_anim;
+}
+.wxcd_date6_var15 {
+    left: 500px;
+    top: 145px;
+    animation-name: wxcd_date6_var15_anim;
+}
+.wxcd_date6_var16 {
+    left: 535px;
+    top: 145px;
+    animation-name: wxcd_date6_var16_anim;
+}
+.wxcd_date6_var17 {
+    left: 570px;
+    top: 145px;
+    animation-name: wxcd_date6_var17_anim;
+}
+.wxcd_date6_var18 {
+    left: 605px;
+    top: 145px;
+    animation-name: wxcd_date6_var18_anim;
+}
+.wxcd_date6_var19 {
+    left: 640px;
+    top: 145px;
+    animation-name: wxcd_date6_var19_anim;
+}
+.wxcd_date6_var20 {
+    left: 675px;
+    top: 145px;
+    animation-name: wxcd_date6_var20_anim;
+}
+.wxcd_date6_var21 {
+    left: 710px;
+    top: 145px;
+    animation-name: wxcd_date6_var21_anim;
+}
+.wxcd_date6_var22 {
+    left: 745px;
+    top: 145px;
+    animation-name: wxcd_date6_var22_anim;
+}
+.wxcd_date6_var23 {
+    left: 780px;
+    top: 145px;
+    animation-name: wxcd_date6_var23_anim;
+}
+.wxcd_date6_var24 {
+    left: 815px;
+    top: 145px;
+    animation-name: wxcd_date6_var24_anim;
+}
+.wxcd_date7_var1 {
+    left: 10px;
+    top: 172px;
+    animation-name: wxcd_date7_var1_anim;
+}
+.wxcd_date7_var2 {
+    left: 45px;
+    top: 172px;
+    animation-name: wxcd_date7_var2_anim;
+}
+.wxcd_date7_var3 {
+    left: 80px;
+    top: 172px;
+    animation-name: wxcd_date7_var3_anim;
+}
+.wxcd_date7_var4 {
+    left: 115px;
+    top: 172px;
+    animation-name: wxcd_date7_var4_anim;
+}
+.wxcd_date7_var5 {
+    left: 150px;
+    top: 172px;
+    animation-name: wxcd_date7_var5_anim;
+}
+.wxcd_date7_var6 {
+    left: 185px;
+    top: 172px;
+    animation-name: wxcd_date7_var6_anim;
+}
+.wxcd_date7_var7 {
+    left: 220px;
+    top: 172px;
+    animation-name: wxcd_date7_var7_anim;
+}
+.wxcd_date7_var8 {
+    left: 255px;
+    top: 172px;
+    animation-name: wxcd_date7_var8_anim;
+}
+.wxcd_date7_var9 {
+    left: 290px;
+    top: 172px;
+    animation-name: wxcd_date7_var9_anim;
+}
+.wxcd_date7_var10 {
+    left: 325px;
+    top: 172px;
+    animation-name: wxcd_date7_var10_anim;
+}
+.wxcd_date7_var11 {
+    left: 360px;
+    top: 172px;
+    animation-name: wxcd_date7_var11_anim;
+}
+.wxcd_date7_var12 {
+    left: 395px;
+    top: 172px;
+    animation-name: wxcd_date7_var12_anim;
+}
+.wxcd_date7_var13 {
+    left: 430px;
+    top: 172px;
+    animation-name: wxcd_date7_var13_anim;
+}
+.wxcd_date7_var14 {
+    left: 465px;
+    top: 172px;
+    animation-name: wxcd_date7_var14_anim;
+}
+.wxcd_date7_var15 {
+    left: 500px;
+    top: 172px;
+    animation-name: wxcd_date7_var15_anim;
+}
+.wxcd_date7_var16 {
+    left: 535px;
+    top: 172px;
+    animation-name: wxcd_date7_var16_anim;
+}
+.wxcd_date7_var17 {
+    left: 570px;
+    top: 172px;
+    animation-name: wxcd_date7_var17_anim;
+}
+.wxcd_date7_var18 {
+    left: 605px;
+    top: 172px;
+    animation-name: wxcd_date7_var18_anim;
+}
+.wxcd_date7_var19 {
+    left: 640px;
+    top: 172px;
+    animation-name: wxcd_date7_var19_anim;
+}
+.wxcd_date7_var20 {
+    left: 675px;
+    top: 172px;
+    animation-name: wxcd_date7_var20_anim;
+}
+.wxcd_date7_var21 {
+    left: 710px;
+    top: 172px;
+    animation-name: wxcd_date7_var21_anim;
+}
+.wxcd_date7_var22 {
+    left: 745px;
+    top: 172px;
+    animation-name: wxcd_date7_var22_anim;
+}
+.wxcd_date7_var23 {
+    left: 780px;
+    top: 172px;
+    animation-name: wxcd_date7_var23_anim;
+}
+.wxcd_date7_var24 {
+    left: 815px;
+    top: 172px;
+    animation-name: wxcd_date7_var24_anim;
+}
+.wxcd_date8_var1 {
+    left: 10px;
+    top: 199px;
+    animation-name: wxcd_date8_var1_anim;
+}
+.wxcd_date8_var2 {
+    left: 45px;
+    top: 199px;
+    animation-name: wxcd_date8_var2_anim;
+}
+.wxcd_date8_var3 {
+    left: 80px;
+    top: 199px;
+    animation-name: wxcd_date8_var3_anim;
+}
+.wxcd_date8_var4 {
+    left: 115px;
+    top: 199px;
+    animation-name: wxcd_date8_var4_anim;
+}
+.wxcd_date8_var5 {
+    left: 150px;
+    top: 199px;
+    animation-name: wxcd_date8_var5_anim;
+}
+.wxcd_date8_var6 {
+    left: 185px;
+    top: 199px;
+    animation-name: wxcd_date8_var6_anim;
+}
+.wxcd_date8_var7 {
+    left: 220px;
+    top: 199px;
+    animation-name: wxcd_date8_var7_anim;
+}
+.wxcd_date8_var8 {
+    left: 255px;
+    top: 199px;
+    animation-name: wxcd_date8_var8_anim;
+}
+.wxcd_date8_var9 {
+    left: 290px;
+    top: 199px;
+    animation-name: wxcd_date8_var9_anim;
+}
+.wxcd_date8_var10 {
+    left: 325px;
+    top: 199px;
+    animation-name: wxcd_date8_var10_anim;
+}
+.wxcd_date8_var11 {
+    left: 360px;
+    top: 199px;
+    animation-name: wxcd_date8_var11_anim;
+}
+.wxcd_date8_var12 {
+    left: 395px;
+    top: 199px;
+    animation-name: wxcd_date8_var12_anim;
+}
+.wxcd_date8_var13 {
+    left: 430px;
+    top: 199px;
+    animation-name: wxcd_date8_var13_anim;
+}
+.wxcd_date8_var14 {
+    left: 465px;
+    top: 199px;
+    animation-name: wxcd_date8_var14_anim;
+}
+.wxcd_date8_var15 {
+    left: 500px;
+    top: 199px;
+    animation-name: wxcd_date8_var15_anim;
+}
+.wxcd_date8_var16 {
+    left: 535px;
+    top: 199px;
+    animation-name: wxcd_date8_var16_anim;
+}
+.wxcd_date8_var17 {
+    left: 570px;
+    top: 199px;
+    animation-name: wxcd_date8_var17_anim;
+}
+.wxcd_date8_var18 {
+    left: 605px;
+    top: 199px;
+    animation-name: wxcd_date8_var18_anim;
+}
+.wxcd_date8_var19 {
+    left: 640px;
+    top: 199px;
+    animation-name: wxcd_date8_var19_anim;
+}
+.wxcd_date8_var20 {
+    left: 675px;
+    top: 199px;
+    animation-name: wxcd_date8_var20_anim;
+}
+.wxcd_date8_var21 {
+    left: 710px;
+    top: 199px;
+    animation-name: wxcd_date8_var21_anim;
+}
+.wxcd_date8_var22 {
+    left: 745px;
+    top: 199px;
+    animation-name: wxcd_date8_var22_anim;
+}
+.wxcd_date8_var23 {
+    left: 780px;
+    top: 199px;
+    animation-name: wxcd_date8_var23_anim;
+}
+.wxcd_date8_var24 {
+    left: 815px;
+    top: 199px;
+    animation-name: wxcd_date8_var24_anim;
+}
+.wxcd_date9_var1 {
+    left: 10px;
+    top: 226px;
+    animation-name: wxcd_date9_var1_anim;
+}
+.wxcd_date9_var2 {
+    left: 45px;
+    top: 226px;
+    animation-name: wxcd_date9_var2_anim;
+}
+.wxcd_date9_var3 {
+    left: 80px;
+    top: 226px;
+    animation-name: wxcd_date9_var3_anim;
+}
+.wxcd_date9_var4 {
+    left: 115px;
+    top: 226px;
+    animation-name: wxcd_date9_var4_anim;
+}
+.wxcd_date9_var5 {
+    left: 150px;
+    top: 226px;
+    animation-name: wxcd_date9_var5_anim;
+}
+.wxcd_date9_var6 {
+    left: 185px;
+    top: 226px;
+    animation-name: wxcd_date9_var6_anim;
+}
+.wxcd_date9_var7 {
+    left: 220px;
+    top: 226px;
+    animation-name: wxcd_date9_var7_anim;
+}
+.wxcd_date9_var8 {
+    left: 255px;
+    top: 226px;
+    animation-name: wxcd_date9_var8_anim;
+}
+.wxcd_date9_var9 {
+    left: 290px;
+    top: 226px;
+    animation-name: wxcd_date9_var9_anim;
+}
+.wxcd_date9_var10 {
+    left: 325px;
+    top: 226px;
+    animation-name: wxcd_date9_var10_anim;
+}
+.wxcd_date9_var11 {
+    left: 360px;
+    top: 226px;
+    animation-name: wxcd_date9_var11_anim;
+}
+.wxcd_date9_var12 {
+    left: 395px;
+    top: 226px;
+    animation-name: wxcd_date9_var12_anim;
+}
+.wxcd_date9_var13 {
+    left: 430px;
+    top: 226px;
+    animation-name: wxcd_date9_var13_anim;
+}
+.wxcd_date9_var14 {
+    left: 465px;
+    top: 226px;
+    animation-name: wxcd_date9_var14_anim;
+}
+.wxcd_date9_var15 {
+    left: 500px;
+    top: 226px;
+    animation-name: wxcd_date9_var15_anim;
+}
+.wxcd_date9_var16 {
+    left: 535px;
+    top: 226px;
+    animation-name: wxcd_date9_var16_anim;
+}
+.wxcd_date9_var17 {
+    left: 570px;
+    top: 226px;
+    animation-name: wxcd_date9_var17_anim;
+}
+.wxcd_date9_var18 {
+    left: 605px;
+    top: 226px;
+    animation-name: wxcd_date9_var18_anim;
+}
+.wxcd_date9_var19 {
+    left: 640px;
+    top: 226px;
+    animation-name: wxcd_date9_var19_anim;
+}
+.wxcd_date9_var20 {
+    left: 675px;
+    top: 226px;
+    animation-name: wxcd_date9_var20_anim;
+}
+.wxcd_date9_var21 {
+    left: 710px;
+    top: 226px;
+    animation-name: wxcd_date9_var21_anim;
+}
+.wxcd_date9_var22 {
+    left: 745px;
+    top: 226px;
+    animation-name: wxcd_date9_var22_anim;
+}
+.wxcd_date9_var23 {
+    left: 780px;
+    top: 226px;
+    animation-name: wxcd_date9_var23_anim;
+}
+.wxcd_date9_var24 {
+    left: 815px;
+    top: 226px;
+    animation-name: wxcd_date9_var24_anim;
+}
+.wxcd_date10_var1 {
+    left: 10px;
+    top: 253px;
+    animation-name: wxcd_date10_var1_anim;
+}
+.wxcd_date10_var2 {
+    left: 45px;
+    top: 253px;
+    animation-name: wxcd_date10_var2_anim;
+}
+.wxcd_date10_var3 {
+    left: 80px;
+    top: 253px;
+    animation-name: wxcd_date10_var3_anim;
+}
+.wxcd_date10_var4 {
+    left: 115px;
+    top: 253px;
+    animation-name: wxcd_date10_var4_anim;
+}
+.wxcd_date10_var5 {
+    left: 150px;
+    top: 253px;
+    animation-name: wxcd_date10_var5_anim;
+}
+.wxcd_date10_var6 {
+    left: 185px;
+    top: 253px;
+    animation-name: wxcd_date10_var6_anim;
+}
+.wxcd_date10_var7 {
+    left: 220px;
+    top: 253px;
+    animation-name: wxcd_date10_var7_anim;
+}
+.wxcd_date10_var8 {
+    left: 255px;
+    top: 253px;
+    animation-name: wxcd_date10_var8_anim;
+}
+.wxcd_date10_var9 {
+    left: 290px;
+    top: 253px;
+    animation-name: wxcd_date10_var9_anim;
+}
+.wxcd_date10_var10 {
+    left: 325px;
+    top: 253px;
+    animation-name: wxcd_date10_var10_anim;
+}
+.wxcd_date10_var11 {
+    left: 360px;
+    top: 253px;
+    animation-name: wxcd_date10_var11_anim;
+}
+.wxcd_date10_var12 {
+    left: 395px;
+    top: 253px;
+    animation-name: wxcd_date10_var12_anim;
+}
+.wxcd_date10_var13 {
+    left: 430px;
+    top: 253px;
+    animation-name: wxcd_date10_var13_anim;
+}
+.wxcd_date10_var14 {
+    left: 465px;
+    top: 253px;
+    animation-name: wxcd_date10_var14_anim;
+}
+.wxcd_date10_var15 {
+    left: 500px;
+    top: 253px;
+    animation-name: wxcd_date10_var15_anim;
+}
+.wxcd_date10_var16 {
+    left: 535px;
+    top: 253px;
+    animation-name: wxcd_date10_var16_anim;
+}
+.wxcd_date10_var17 {
+    left: 570px;
+    top: 253px;
+    animation-name: wxcd_date10_var17_anim;
+}
+.wxcd_date10_var18 {
+    left: 605px;
+    top: 253px;
+    animation-name: wxcd_date10_var18_anim;
+}
+.wxcd_date10_var19 {
+    left: 640px;
+    top: 253px;
+    animation-name: wxcd_date10_var19_anim;
+}
+.wxcd_date10_var20 {
+    left: 675px;
+    top: 253px;
+    animation-name: wxcd_date10_var20_anim;
+}
+.wxcd_date10_var21 {
+    left: 710px;
+    top: 253px;
+    animation-name: wxcd_date10_var21_anim;
+}
+.wxcd_date10_var22 {
+    left: 745px;
+    top: 253px;
+    animation-name: wxcd_date10_var22_anim;
+}
+.wxcd_date10_var23 {
+    left: 780px;
+    top: 253px;
+    animation-name: wxcd_date10_var23_anim;
+}
+.wxcd_date10_var24 {
+    left: 815px;
+    top: 253px;
+    animation-name: wxcd_date10_var24_anim;
+}
+.wxcd_date11_var1 {
+    left: 10px;
+    top: 280px;
+    animation-name: wxcd_date11_var1_anim;
+}
+.wxcd_date11_var2 {
+    left: 45px;
+    top: 280px;
+    animation-name: wxcd_date11_var2_anim;
+}
+.wxcd_date11_var3 {
+    left: 80px;
+    top: 280px;
+    animation-name: wxcd_date11_var3_anim;
+}
+.wxcd_date11_var4 {
+    left: 115px;
+    top: 280px;
+    animation-name: wxcd_date11_var4_anim;
+}
+.wxcd_date11_var5 {
+    left: 150px;
+    top: 280px;
+    animation-name: wxcd_date11_var5_anim;
+}
+.wxcd_date11_var6 {
+    left: 185px;
+    top: 280px;
+    animation-name: wxcd_date11_var6_anim;
+}
+.wxcd_date11_var7 {
+    left: 220px;
+    top: 280px;
+    animation-name: wxcd_date11_var7_anim;
+}
+.wxcd_date11_var8 {
+    left: 255px;
+    top: 280px;
+    animation-name: wxcd_date11_var8_anim;
+}
+.wxcd_date11_var9 {
+    left: 290px;
+    top: 280px;
+    animation-name: wxcd_date11_var9_anim;
+}
+.wxcd_date11_var10 {
+    left: 325px;
+    top: 280px;
+    animation-name: wxcd_date11_var10_anim;
+}
+.wxcd_date11_var11 {
+    left: 360px;
+    top: 280px;
+    animation-name: wxcd_date11_var11_anim;
+}
+.wxcd_date11_var12 {
+    left: 395px;
+    top: 280px;
+    animation-name: wxcd_date11_var12_anim;
+}
+.wxcd_date11_var13 {
+    left: 430px;
+    top: 280px;
+    animation-name: wxcd_date11_var13_anim;
+}
+.wxcd_date11_var14 {
+    left: 465px;
+    top: 280px;
+    animation-name: wxcd_date11_var14_anim;
+}
+.wxcd_date11_var15 {
+    left: 500px;
+    top: 280px;
+    animation-name: wxcd_date11_var15_anim;
+}
+.wxcd_date11_var16 {
+    left: 535px;
+    top: 280px;
+    animation-name: wxcd_date11_var16_anim;
+}
+.wxcd_date11_var17 {
+    left: 570px;
+    top: 280px;
+    animation-name: wxcd_date11_var17_anim;
+}
+.wxcd_date11_var18 {
+    left: 605px;
+    top: 280px;
+    animation-name: wxcd_date11_var18_anim;
+}
+.wxcd_date11_var19 {
+    left: 640px;
+    top: 280px;
+    animation-name: wxcd_date11_var19_anim;
+}
+.wxcd_date11_var20 {
+    left: 675px;
+    top: 280px;
+    animation-name: wxcd_date11_var20_anim;
+}
+.wxcd_date11_var21 {
+    left: 710px;
+    top: 280px;
+    animation-name: wxcd_date11_var21_anim;
+}
+.wxcd_date11_var22 {
+    left: 745px;
+    top: 280px;
+    animation-name: wxcd_date11_var22_anim;
+}
+.wxcd_date11_var23 {
+    left: 780px;
+    top: 280px;
+    animation-name: wxcd_date11_var23_anim;
+}
+.wxcd_date11_var24 {
+    left: 815px;
+    top: 280px;
+    animation-name: wxcd_date11_var24_anim;
+}
+.wxcd_date12_var1 {
+    left: 10px;
+    top: 307px;
+    animation-name: wxcd_date12_var1_anim;
+}
+.wxcd_date12_var2 {
+    left: 45px;
+    top: 307px;
+    animation-name: wxcd_date12_var2_anim;
+}
+.wxcd_date12_var3 {
+    left: 80px;
+    top: 307px;
+    animation-name: wxcd_date12_var3_anim;
+}
+.wxcd_date12_var4 {
+    left: 115px;
+    top: 307px;
+    animation-name: wxcd_date12_var4_anim;
+}
+.wxcd_date12_var5 {
+    left: 150px;
+    top: 307px;
+    animation-name: wxcd_date12_var5_anim;
+}
+.wxcd_date12_var6 {
+    left: 185px;
+    top: 307px;
+    animation-name: wxcd_date12_var6_anim;
+}
+.wxcd_date12_var7 {
+    left: 220px;
+    top: 307px;
+    animation-name: wxcd_date12_var7_anim;
+}
+.wxcd_date12_var8 {
+    left: 255px;
+    top: 307px;
+    animation-name: wxcd_date12_var8_anim;
+}
+.wxcd_date12_var9 {
+    left: 290px;
+    top: 307px;
+    animation-name: wxcd_date12_var9_anim;
+}
+.wxcd_date12_var10 {
+    left: 325px;
+    top: 307px;
+    animation-name: wxcd_date12_var10_anim;
+}
+.wxcd_date12_var11 {
+    left: 360px;
+    top: 307px;
+    animation-name: wxcd_date12_var11_anim;
+}
+.wxcd_date12_var12 {
+    left: 395px;
+    top: 307px;
+    animation-name: wxcd_date12_var12_anim;
+}
+.wxcd_date12_var13 {
+    left: 430px;
+    top: 307px;
+    animation-name: wxcd_date12_var13_anim;
+}
+.wxcd_date12_var14 {
+    left: 465px;
+    top: 307px;
+    animation-name: wxcd_date12_var14_anim;
+}
+.wxcd_date12_var15 {
+    left: 500px;
+    top: 307px;
+    animation-name: wxcd_date12_var15_anim;
+}
+.wxcd_date12_var16 {
+    left: 535px;
+    top: 307px;
+    animation-name: wxcd_date12_var16_anim;
+}
+.wxcd_date12_var17 {
+    left: 570px;
+    top: 307px;
+    animation-name: wxcd_date12_var17_anim;
+}
+.wxcd_date12_var18 {
+    left: 605px;
+    top: 307px;
+    animation-name: wxcd_date12_var18_anim;
+}
+.wxcd_date12_var19 {
+    left: 640px;
+    top: 307px;
+    animation-name: wxcd_date12_var19_anim;
+}
+.wxcd_date12_var20 {
+    left: 675px;
+    top: 307px;
+    animation-name: wxcd_date12_var20_anim;
+}
+.wxcd_date12_var21 {
+    left: 710px;
+    top: 307px;
+    animation-name: wxcd_date12_var21_anim;
+}
+.wxcd_date12_var22 {
+    left: 745px;
+    top: 307px;
+    animation-name: wxcd_date12_var22_anim;
+}
+.wxcd_date12_var23 {
+    left: 780px;
+    top: 307px;
+    animation-name: wxcd_date12_var23_anim;
+}
+.wxcd_date12_var24 {
+    left: 815px;
+    top: 307px;
+    animation-name: wxcd_date12_var24_anim;
+}
+.wxcd_date13_var1 {
+    left: 10px;
+    top: 334px;
+    animation-name: wxcd_date13_var1_anim;
+}
+.wxcd_date13_var2 {
+    left: 45px;
+    top: 334px;
+    animation-name: wxcd_date13_var2_anim;
+}
+.wxcd_date13_var3 {
+    left: 80px;
+    top: 334px;
+    animation-name: wxcd_date13_var3_anim;
+}
+.wxcd_date13_var4 {
+    left: 115px;
+    top: 334px;
+    animation-name: wxcd_date13_var4_anim;
+}
+.wxcd_date13_var5 {
+    left: 150px;
+    top: 334px;
+    animation-name: wxcd_date13_var5_anim;
+}
+.wxcd_date13_var6 {
+    left: 185px;
+    top: 334px;
+    animation-name: wxcd_date13_var6_anim;
+}
+.wxcd_date13_var7 {
+    left: 220px;
+    top: 334px;
+    animation-name: wxcd_date13_var7_anim;
+}
+.wxcd_date13_var8 {
+    left: 255px;
+    top: 334px;
+    animation-name: wxcd_date13_var8_anim;
+}
+.wxcd_date13_var9 {
+    left: 290px;
+    top: 334px;
+    animation-name: wxcd_date13_var9_anim;
+}
+.wxcd_date13_var10 {
+    left: 325px;
+    top: 334px;
+    animation-name: wxcd_date13_var10_anim;
+}
+.wxcd_date13_var11 {
+    left: 360px;
+    top: 334px;
+    animation-name: wxcd_date13_var11_anim;
+}
+.wxcd_date13_var12 {
+    left: 395px;
+    top: 334px;
+    animation-name: wxcd_date13_var12_anim;
+}
+.wxcd_date13_var13 {
+    left: 430px;
+    top: 334px;
+    animation-name: wxcd_date13_var13_anim;
+}
+.wxcd_date13_var14 {
+    left: 465px;
+    top: 334px;
+    animation-name: wxcd_date13_var14_anim;
+}
+.wxcd_date13_var15 {
+    left: 500px;
+    top: 334px;
+    animation-name: wxcd_date13_var15_anim;
+}
+.wxcd_date13_var16 {
+    left: 535px;
+    top: 334px;
+    animation-name: wxcd_date13_var16_anim;
+}
+.wxcd_date13_var17 {
+    left: 570px;
+    top: 334px;
+    animation-name: wxcd_date13_var17_anim;
+}
+.wxcd_date13_var18 {
+    left: 605px;
+    top: 334px;
+    animation-name: wxcd_date13_var18_anim;
+}
+.wxcd_date13_var19 {
+    left: 640px;
+    top: 334px;
+    animation-name: wxcd_date13_var19_anim;
+}
+.wxcd_date13_var20 {
+    left: 675px;
+    top: 334px;
+    animation-name: wxcd_date13_var20_anim;
+}
+.wxcd_date13_var21 {
+    left: 710px;
+    top: 334px;
+    animation-name: wxcd_date13_var21_anim;
+}
+.wxcd_date13_var22 {
+    left: 745px;
+    top: 334px;
+    animation-name: wxcd_date13_var22_anim;
+}
+.wxcd_date13_var23 {
+    left: 780px;
+    top: 334px;
+    animation-name: wxcd_date13_var23_anim;
+}
+.wxcd_date13_var24 {
+    left: 815px;
+    top: 334px;
+    animation-name: wxcd_date13_var24_anim;
+}
+.wxcd_date14_var1 {
+    left: 10px;
+    top: 361px;
+    animation-name: wxcd_date14_var1_anim;
+}
+.wxcd_date14_var2 {
+    left: 45px;
+    top: 361px;
+    animation-name: wxcd_date14_var2_anim;
+}
+.wxcd_date14_var3 {
+    left: 80px;
+    top: 361px;
+    animation-name: wxcd_date14_var3_anim;
+}
+.wxcd_date14_var4 {
+    left: 115px;
+    top: 361px;
+    animation-name: wxcd_date14_var4_anim;
+}
+.wxcd_date14_var5 {
+    left: 150px;
+    top: 361px;
+    animation-name: wxcd_date14_var5_anim;
+}
+.wxcd_date14_var6 {
+    left: 185px;
+    top: 361px;
+    animation-name: wxcd_date14_var6_anim;
+}
+.wxcd_date14_var7 {
+    left: 220px;
+    top: 361px;
+    animation-name: wxcd_date14_var7_anim;
+}
+.wxcd_date14_var8 {
+    left: 255px;
+    top: 361px;
+    animation-name: wxcd_date14_var8_anim;
+}
+.wxcd_date14_var9 {
+    left: 290px;
+    top: 361px;
+    animation-name: wxcd_date14_var9_anim;
+}
+.wxcd_date14_var10 {
+    left: 325px;
+    top: 361px;
+    animation-name: wxcd_date14_var10_anim;
+}
+.wxcd_date14_var11 {
+    left: 360px;
+    top: 361px;
+    animation-name: wxcd_date14_var11_anim;
+}
+.wxcd_date14_var12 {
+    left: 395px;
+    top: 361px;
+    animation-name: wxcd_date14_var12_anim;
+}
+.wxcd_date14_var13 {
+    left: 430px;
+    top: 361px;
+    animation-name: wxcd_date14_var13_anim;
+}
+.wxcd_date14_var14 {
+    left: 465px;
+    top: 361px;
+    animation-name: wxcd_date14_var14_anim;
+}
+.wxcd_date14_var15 {
+    left: 500px;
+    top: 361px;
+    animation-name: wxcd_date14_var15_anim;
+}
+.wxcd_date14_var16 {
+    left: 535px;
+    top: 361px;
+    animation-name: wxcd_date14_var16_anim;
+}
+.wxcd_date14_var17 {
+    left: 570px;
+    top: 361px;
+    animation-name: wxcd_date14_var17_anim;
+}
+.wxcd_date14_var18 {
+    left: 605px;
+    top: 361px;
+    animation-name: wxcd_date14_var18_anim;
+}
+.wxcd_date14_var19 {
+    left: 640px;
+    top: 361px;
+    animation-name: wxcd_date14_var19_anim;
+}
+.wxcd_date14_var20 {
+    left: 675px;
+    top: 361px;
+    animation-name: wxcd_date14_var20_anim;
+}
+.wxcd_date14_var21 {
+    left: 710px;
+    top: 361px;
+    animation-name: wxcd_date14_var21_anim;
+}
+.wxcd_date14_var22 {
+    left: 745px;
+    top: 361px;
+    animation-name: wxcd_date14_var22_anim;
+}
+.wxcd_date14_var23 {
+    left: 780px;
+    top: 361px;
+    animation-name: wxcd_date14_var23_anim;
+}
+.wxcd_date14_var24 {
+    left: 815px;
+    top: 361px;
+    animation-name: wxcd_date14_var24_anim;
+}
+.wxcd_date15_var1 {
+    left: 10px;
+    top: 388px;
+    animation-name: wxcd_date15_var1_anim;
+}
+.wxcd_date15_var2 {
+    left: 45px;
+    top: 388px;
+    animation-name: wxcd_date15_var2_anim;
+}
+.wxcd_date15_var3 {
+    left: 80px;
+    top: 388px;
+    animation-name: wxcd_date15_var3_anim;
+}
+.wxcd_date15_var4 {
+    left: 115px;
+    top: 388px;
+    animation-name: wxcd_date15_var4_anim;
+}
+.wxcd_date15_var5 {
+    left: 150px;
+    top: 388px;
+    animation-name: wxcd_date15_var5_anim;
+}
+.wxcd_date15_var6 {
+    left: 185px;
+    top: 388px;
+    animation-name: wxcd_date15_var6_anim;
+}
+.wxcd_date15_var7 {
+    left: 220px;
+    top: 388px;
+    animation-name: wxcd_date15_var7_anim;
+}
+.wxcd_date15_var8 {
+    left: 255px;
+    top: 388px;
+    animation-name: wxcd_date15_var8_anim;
+}
+.wxcd_date15_var9 {
+    left: 290px;
+    top: 388px;
+    animation-name: wxcd_date15_var9_anim;
+}
+.wxcd_date15_var10 {
+    left: 325px;
+    top: 388px;
+    animation-name: wxcd_date15_var10_anim;
+}
+.wxcd_date15_var11 {
+    left: 360px;
+    top: 388px;
+    animation-name: wxcd_date15_var11_anim;
+}
+.wxcd_date15_var12 {
+    left: 395px;
+    top: 388px;
+    animation-name: wxcd_date15_var12_anim;
+}
+.wxcd_date15_var13 {
+    left: 430px;
+    top: 388px;
+    animation-name: wxcd_date15_var13_anim;
+}
+.wxcd_date15_var14 {
+    left: 465px;
+    top: 388px;
+    animation-name: wxcd_date15_var14_anim;
+}
+.wxcd_date15_var15 {
+    left: 500px;
+    top: 388px;
+    animation-name: wxcd_date15_var15_anim;
+}
+.wxcd_date15_var16 {
+    left: 535px;
+    top: 388px;
+    animation-name: wxcd_date15_var16_anim;
+}
+.wxcd_date15_var17 {
+    left: 570px;
+    top: 388px;
+    animation-name: wxcd_date15_var17_anim;
+}
+.wxcd_date15_var18 {
+    left: 605px;
+    top: 388px;
+    animation-name: wxcd_date15_var18_anim;
+}
+.wxcd_date15_var19 {
+    left: 640px;
+    top: 388px;
+    animation-name: wxcd_date15_var19_anim;
+}
+.wxcd_date15_var20 {
+    left: 675px;
+    top: 388px;
+    animation-name: wxcd_date15_var20_anim;
+}
+.wxcd_date15_var21 {
+    left: 710px;
+    top: 388px;
+    animation-name: wxcd_date15_var21_anim;
+}
+.wxcd_date15_var22 {
+    left: 745px;
+    top: 388px;
+    animation-name: wxcd_date15_var22_anim;
+}
+.wxcd_date15_var23 {
+    left: 780px;
+    top: 388px;
+    animation-name: wxcd_date15_var23_anim;
+}
+.wxcd_date15_var24 {
+    left: 815px;
+    top: 388px;
+    animation-name: wxcd_date15_var24_anim;
+}
+.wxcd_date16_var1 {
+    left: 10px;
+    top: 415px;
+    animation-name: wxcd_date16_var1_anim;
+}
+.wxcd_date16_var2 {
+    left: 45px;
+    top: 415px;
+    animation-name: wxcd_date16_var2_anim;
+}
+.wxcd_date16_var3 {
+    left: 80px;
+    top: 415px;
+    animation-name: wxcd_date16_var3_anim;
+}
+.wxcd_date16_var4 {
+    left: 115px;
+    top: 415px;
+    animation-name: wxcd_date16_var4_anim;
+}
+.wxcd_date16_var5 {
+    left: 150px;
+    top: 415px;
+    animation-name: wxcd_date16_var5_anim;
+}
+.wxcd_date16_var6 {
+    left: 185px;
+    top: 415px;
+    animation-name: wxcd_date16_var6_anim;
+}
+.wxcd_date16_var7 {
+    left: 220px;
+    top: 415px;
+    animation-name: wxcd_date16_var7_anim;
+}
+.wxcd_date16_var8 {
+    left: 255px;
+    top: 415px;
+    animation-name: wxcd_date16_var8_anim;
+}
+.wxcd_date16_var9 {
+    left: 290px;
+    top: 415px;
+    animation-name: wxcd_date16_var9_anim;
+}
+.wxcd_date16_var10 {
+    left: 325px;
+    top: 415px;
+    animation-name: wxcd_date16_var10_anim;
+}
+.wxcd_date16_var11 {
+    left: 360px;
+    top: 415px;
+    animation-name: wxcd_date16_var11_anim;
+}
+.wxcd_date16_var12 {
+    left: 395px;
+    top: 415px;
+    animation-name: wxcd_date16_var12_anim;
+}
+.wxcd_date16_var13 {
+    left: 430px;
+    top: 415px;
+    animation-name: wxcd_date16_var13_anim;
+}
+.wxcd_date16_var14 {
+    left: 465px;
+    top: 415px;
+    animation-name: wxcd_date16_var14_anim;
+}
+.wxcd_date16_var15 {
+    left: 500px;
+    top: 415px;
+    animation-name: wxcd_date16_var15_anim;
+}
+.wxcd_date16_var16 {
+    left: 535px;
+    top: 415px;
+    animation-name: wxcd_date16_var16_anim;
+}
+.wxcd_date16_var17 {
+    left: 570px;
+    top: 415px;
+    animation-name: wxcd_date16_var17_anim;
+}
+.wxcd_date16_var18 {
+    left: 605px;
+    top: 415px;
+    animation-name: wxcd_date16_var18_anim;
+}
+.wxcd_date16_var19 {
+    left: 640px;
+    top: 415px;
+    animation-name: wxcd_date16_var19_anim;
+}
+.wxcd_date16_var20 {
+    left: 675px;
+    top: 415px;
+    animation-name: wxcd_date16_var20_anim;
+}
+.wxcd_date16_var21 {
+    left: 710px;
+    top: 415px;
+    animation-name: wxcd_date16_var21_anim;
+}
+.wxcd_date16_var22 {
+    left: 745px;
+    top: 415px;
+    animation-name: wxcd_date16_var22_anim;
+}
+.wxcd_date16_var23 {
+    left: 780px;
+    top: 415px;
+    animation-name: wxcd_date16_var23_anim;
+}
+.wxcd_date16_var24 {
+    left: 815px;
+    top: 415px;
+    animation-name: wxcd_date16_var24_anim;
+}
+.wxcd_date17_var1 {
+    left: 10px;
+    top: 442px;
+    animation-name: wxcd_date17_var1_anim;
+}
+.wxcd_date17_var2 {
+    left: 45px;
+    top: 442px;
+    animation-name: wxcd_date17_var2_anim;
+}
+.wxcd_date17_var3 {
+    left: 80px;
+    top: 442px;
+    animation-name: wxcd_date17_var3_anim;
+}
+.wxcd_date17_var4 {
+    left: 115px;
+    top: 442px;
+    animation-name: wxcd_date17_var4_anim;
+}
+.wxcd_date17_var5 {
+    left: 150px;
+    top: 442px;
+    animation-name: wxcd_date17_var5_anim;
+}
+.wxcd_date17_var6 {
+    left: 185px;
+    top: 442px;
+    animation-name: wxcd_date17_var6_anim;
+}
+.wxcd_date17_var7 {
+    left: 220px;
+    top: 442px;
+    animation-name: wxcd_date17_var7_anim;
+}
+.wxcd_date17_var8 {
+    left: 255px;
+    top: 442px;
+    animation-name: wxcd_date17_var8_anim;
+}
+.wxcd_date17_var9 {
+    left: 290px;
+    top: 442px;
+    animation-name: wxcd_date17_var9_anim;
+}
+.wxcd_date17_var10 {
+    left: 325px;
+    top: 442px;
+    animation-name: wxcd_date17_var10_anim;
+}
+.wxcd_date17_var11 {
+    left: 360px;
+    top: 442px;
+    animation-name: wxcd_date17_var11_anim;
+}
+.wxcd_date17_var12 {
+    left: 395px;
+    top: 442px;
+    animation-name: wxcd_date17_var12_anim;
+}
+.wxcd_date17_var13 {
+    left: 430px;
+    top: 442px;
+    animation-name: wxcd_date17_var13_anim;
+}
+.wxcd_date17_var14 {
+    left: 465px;
+    top: 442px;
+    animation-name: wxcd_date17_var14_anim;
+}
+.wxcd_date17_var15 {
+    left: 500px;
+    top: 442px;
+    animation-name: wxcd_date17_var15_anim;
+}
+.wxcd_date17_var16 {
+    left: 535px;
+    top: 442px;
+    animation-name: wxcd_date17_var16_anim;
+}
+.wxcd_date17_var17 {
+    left: 570px;
+    top: 442px;
+    animation-name: wxcd_date17_var17_anim;
+}
+.wxcd_date17_var18 {
+    left: 605px;
+    top: 442px;
+    animation-name: wxcd_date17_var18_anim;
+}
+.wxcd_date17_var19 {
+    left: 640px;
+    top: 442px;
+    animation-name: wxcd_date17_var19_anim;
+}
+.wxcd_date17_var20 {
+    left: 675px;
+    top: 442px;
+    animation-name: wxcd_date17_var20_anim;
+}
+.wxcd_date17_var21 {
+    left: 710px;
+    top: 442px;
+    animation-name: wxcd_date17_var21_anim;
+}
+.wxcd_date17_var22 {
+    left: 745px;
+    top: 442px;
+    animation-name: wxcd_date17_var22_anim;
+}
+.wxcd_date17_var23 {
+    left: 780px;
+    top: 442px;
+    animation-name: wxcd_date17_var23_anim;
+}
+.wxcd_date17_var24 {
+    left: 815px;
+    top: 442px;
+    animation-name: wxcd_date17_var24_anim;
+}
+.wxcd_date18_var1 {
+    left: 10px;
+    top: 469px;
+    animation-name: wxcd_date18_var1_anim;
+}
+.wxcd_date18_var2 {
+    left: 45px;
+    top: 469px;
+    animation-name: wxcd_date18_var2_anim;
+}
+.wxcd_date18_var3 {
+    left: 80px;
+    top: 469px;
+    animation-name: wxcd_date18_var3_anim;
+}
+.wxcd_date18_var4 {
+    left: 115px;
+    top: 469px;
+    animation-name: wxcd_date18_var4_anim;
+}
+.wxcd_date18_var5 {
+    left: 150px;
+    top: 469px;
+    animation-name: wxcd_date18_var5_anim;
+}
+.wxcd_date18_var6 {
+    left: 185px;
+    top: 469px;
+    animation-name: wxcd_date18_var6_anim;
+}
+.wxcd_date18_var7 {
+    left: 220px;
+    top: 469px;
+    animation-name: wxcd_date18_var7_anim;
+}
+.wxcd_date18_var8 {
+    left: 255px;
+    top: 469px;
+    animation-name: wxcd_date18_var8_anim;
+}
+.wxcd_date18_var9 {
+    left: 290px;
+    top: 469px;
+    animation-name: wxcd_date18_var9_anim;
+}
+.wxcd_date18_var10 {
+    left: 325px;
+    top: 469px;
+    animation-name: wxcd_date18_var10_anim;
+}
+.wxcd_date18_var11 {
+    left: 360px;
+    top: 469px;
+    animation-name: wxcd_date18_var11_anim;
+}
+.wxcd_date18_var12 {
+    left: 395px;
+    top: 469px;
+    animation-name: wxcd_date18_var12_anim;
+}
+.wxcd_date18_var13 {
+    left: 430px;
+    top: 469px;
+    animation-name: wxcd_date18_var13_anim;
+}
+.wxcd_date18_var14 {
+    left: 465px;
+    top: 469px;
+    animation-name: wxcd_date18_var14_anim;
+}
+.wxcd_date18_var15 {
+    left: 500px;
+    top: 469px;
+    animation-name: wxcd_date18_var15_anim;
+}
+.wxcd_date18_var16 {
+    left: 535px;
+    top: 469px;
+    animation-name: wxcd_date18_var16_anim;
+}
+.wxcd_date18_var17 {
+    left: 570px;
+    top: 469px;
+    animation-name: wxcd_date18_var17_anim;
+}
+.wxcd_date18_var18 {
+    left: 605px;
+    top: 469px;
+    animation-name: wxcd_date18_var18_anim;
+}
+.wxcd_date18_var19 {
+    left: 640px;
+    top: 469px;
+    animation-name: wxcd_date18_var19_anim;
+}
+.wxcd_date18_var20 {
+    left: 675px;
+    top: 469px;
+    animation-name: wxcd_date18_var20_anim;
+}
+.wxcd_date18_var21 {
+    left: 710px;
+    top: 469px;
+    animation-name: wxcd_date18_var21_anim;
+}
+.wxcd_date18_var22 {
+    left: 745px;
+    top: 469px;
+    animation-name: wxcd_date18_var22_anim;
+}
+.wxcd_date18_var23 {
+    left: 780px;
+    top: 469px;
+    animation-name: wxcd_date18_var23_anim;
+}
+.wxcd_date18_var24 {
+    left: 815px;
+    top: 469px;
+    animation-name: wxcd_date18_var24_anim;
+}
+.wxcd_date19_var1 {
+    left: 10px;
+    top: 496px;
+    animation-name: wxcd_date19_var1_anim;
+}
+.wxcd_date19_var2 {
+    left: 45px;
+    top: 496px;
+    animation-name: wxcd_date19_var2_anim;
+}
+.wxcd_date19_var3 {
+    left: 80px;
+    top: 496px;
+    animation-name: wxcd_date19_var3_anim;
+}
+.wxcd_date19_var4 {
+    left: 115px;
+    top: 496px;
+    animation-name: wxcd_date19_var4_anim;
+}
+.wxcd_date19_var5 {
+    left: 150px;
+    top: 496px;
+    animation-name: wxcd_date19_var5_anim;
+}
+.wxcd_date19_var6 {
+    left: 185px;
+    top: 496px;
+    animation-name: wxcd_date19_var6_anim;
+}
+.wxcd_date19_var7 {
+    left: 220px;
+    top: 496px;
+    animation-name: wxcd_date19_var7_anim;
+}
+.wxcd_date19_var8 {
+    left: 255px;
+    top: 496px;
+    animation-name: wxcd_date19_var8_anim;
+}
+.wxcd_date19_var9 {
+    left: 290px;
+    top: 496px;
+    animation-name: wxcd_date19_var9_anim;
+}
+.wxcd_date19_var10 {
+    left: 325px;
+    top: 496px;
+    animation-name: wxcd_date19_var10_anim;
+}
+.wxcd_date19_var11 {
+    left: 360px;
+    top: 496px;
+    animation-name: wxcd_date19_var11_anim;
+}
+.wxcd_date19_var12 {
+    left: 395px;
+    top: 496px;
+    animation-name: wxcd_date19_var12_anim;
+}
+.wxcd_date19_var13 {
+    left: 430px;
+    top: 496px;
+    animation-name: wxcd_date19_var13_anim;
+}
+.wxcd_date19_var14 {
+    left: 465px;
+    top: 496px;
+    animation-name: wxcd_date19_var14_anim;
+}
+.wxcd_date19_var15 {
+    left: 500px;
+    top: 496px;
+    animation-name: wxcd_date19_var15_anim;
+}
+.wxcd_date19_var16 {
+    left: 535px;
+    top: 496px;
+    animation-name: wxcd_date19_var16_anim;
+}
+.wxcd_date19_var17 {
+    left: 570px;
+    top: 496px;
+    animation-name: wxcd_date19_var17_anim;
+}
+.wxcd_date19_var18 {
+    left: 605px;
+    top: 496px;
+    animation-name: wxcd_date19_var18_anim;
+}
+.wxcd_date19_var19 {
+    left: 640px;
+    top: 496px;
+    animation-name: wxcd_date19_var19_anim;
+}
+.wxcd_date19_var20 {
+    left: 675px;
+    top: 496px;
+    animation-name: wxcd_date19_var20_anim;
+}
+.wxcd_date19_var21 {
+    left: 710px;
+    top: 496px;
+    animation-name: wxcd_date19_var21_anim;
+}
+.wxcd_date19_var22 {
+    left: 745px;
+    top: 496px;
+    animation-name: wxcd_date19_var22_anim;
+}
+.wxcd_date19_var23 {
+    left: 780px;
+    top: 496px;
+    animation-name: wxcd_date19_var23_anim;
+}
+.wxcd_date19_var24 {
+    left: 815px;
+    top: 496px;
+    animation-name: wxcd_date19_var24_anim;
+}
+.wxcd_date20_var1 {
+    left: 10px;
+    top: 523px;
+    animation-name: wxcd_date20_var1_anim;
+}
+.wxcd_date20_var2 {
+    left: 45px;
+    top: 523px;
+    animation-name: wxcd_date20_var2_anim;
+}
+.wxcd_date20_var3 {
+    left: 80px;
+    top: 523px;
+    animation-name: wxcd_date20_var3_anim;
+}
+.wxcd_date20_var4 {
+    left: 115px;
+    top: 523px;
+    animation-name: wxcd_date20_var4_anim;
+}
+.wxcd_date20_var5 {
+    left: 150px;
+    top: 523px;
+    animation-name: wxcd_date20_var5_anim;
+}
+.wxcd_date20_var6 {
+    left: 185px;
+    top: 523px;
+    animation-name: wxcd_date20_var6_anim;
+}
+.wxcd_date20_var7 {
+    left: 220px;
+    top: 523px;
+    animation-name: wxcd_date20_var7_anim;
+}
+.wxcd_date20_var8 {
+    left: 255px;
+    top: 523px;
+    animation-name: wxcd_date20_var8_anim;
+}
+.wxcd_date20_var9 {
+    left: 290px;
+    top: 523px;
+    animation-name: wxcd_date20_var9_anim;
+}
+.wxcd_date20_var10 {
+    left: 325px;
+    top: 523px;
+    animation-name: wxcd_date20_var10_anim;
+}
+.wxcd_date20_var11 {
+    left: 360px;
+    top: 523px;
+    animation-name: wxcd_date20_var11_anim;
+}
+.wxcd_date20_var12 {
+    left: 395px;
+    top: 523px;
+    animation-name: wxcd_date20_var12_anim;
+}
+.wxcd_date20_var13 {
+    left: 430px;
+    top: 523px;
+    animation-name: wxcd_date20_var13_anim;
+}
+.wxcd_date20_var14 {
+    left: 465px;
+    top: 523px;
+    animation-name: wxcd_date20_var14_anim;
+}
+.wxcd_date20_var15 {
+    left: 500px;
+    top: 523px;
+    animation-name: wxcd_date20_var15_anim;
+}
+.wxcd_date20_var16 {
+    left: 535px;
+    top: 523px;
+    animation-name: wxcd_date20_var16_anim;
+}
+.wxcd_date20_var17 {
+    left: 570px;
+    top: 523px;
+    animation-name: wxcd_date20_var17_anim;
+}
+.wxcd_date20_var18 {
+    left: 605px;
+    top: 523px;
+    animation-name: wxcd_date20_var18_anim;
+}
+.wxcd_date20_var19 {
+    left: 640px;
+    top: 523px;
+    animation-name: wxcd_date20_var19_anim;
+}
+.wxcd_date20_var20 {
+    left: 675px;
+    top: 523px;
+    animation-name: wxcd_date20_var20_anim;
+}
+.wxcd_date20_var21 {
+    left: 710px;
+    top: 523px;
+    animation-name: wxcd_date20_var21_anim;
+}
+.wxcd_date20_var22 {
+    left: 745px;
+    top: 523px;
+    animation-name: wxcd_date20_var22_anim;
+}
+.wxcd_date20_var23 {
+    left: 780px;
+    top: 523px;
+    animation-name: wxcd_date20_var23_anim;
+}
+.wxcd_date20_var24 {
+    left: 815px;
+    top: 523px;
+    animation-name: wxcd_date20_var24_anim;
+}
+
+@keyframes wxcd_date1_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    50%  {width: 139px;}
+    51%  {width: 174px;}
+    52%  {width: 209px;}
+    53%  {width: 244px;}
+    54%  {width: 279px;}
+    55%  {width: 314px;}
+    56%  {width: 349px;}
+    57%  {width: 384px;}
+    58%  {width: 419px;}
+    59%  {width: 454px;}
+    60%  {width: 489px;}
+    61%  {width: 524px;}
+    62%  {width: 559px;}
+    63%  {width: 594px;}
+    64%  {width: 629px;}
+    65%  {width: 664px;}
+    66%  {width: 699px;}
+    67%  {width: 734px;}
+    68%  {width: 769px;}
+    69%  {width: 804px;}
+    70%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date1_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date1_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date1_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date1_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date1_var5_anim {
+    0%   {background-color: white;}
+    50%  {background-color: white;}
+    51%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var6_anim {
+    0%   {background-color: white;}
+    51%  {background-color: white;}
+    52%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var7_anim {
+    0%   {background-color: white;}
+    52%  {background-color: white;}
+    53%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var8_anim {
+    0%   {background-color: white;}
+    53%  {background-color: white;}
+    54%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var9_anim {
+    0%   {background-color: white;}
+    54%  {background-color: white;}
+    55%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var10_anim {
+    0%   {background-color: white;}
+    55%  {background-color: white;}
+    56%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var11_anim {
+    0%   {background-color: white;}
+    56%  {background-color: white;}
+    57%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var12_anim {
+    0%   {background-color: white;}
+    57%  {background-color: white;}
+    58%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var13_anim {
+    0%   {background-color: white;}
+    58%  {background-color: white;}
+    59%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var14_anim {
+    0%   {background-color: white;}
+    59%  {background-color: white;}
+    60%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var15_anim {
+    0%   {background-color: white;}
+    60%  {background-color: white;}
+    61%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var16_anim {
+    0%   {background-color: white;}
+    61%  {background-color: white;}
+    62%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var17_anim {
+    0%   {background-color: white;}
+    62%  {background-color: white;}
+    63%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var18_anim {
+    0%   {background-color: white;}
+    63%  {background-color: white;}
+    64%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var19_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var20_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var21_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var22_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var23_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date1_var24_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date2_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    51%  {width: 139px;}
+    52%  {width: 174px;}
+    53%  {width: 209px;}
+    54%  {width: 244px;}
+    55%  {width: 279px;}
+    56%  {width: 314px;}
+    57%  {width: 349px;}
+    58%  {width: 384px;}
+    59%  {width: 419px;}
+    60%  {width: 454px;}
+    61%  {width: 489px;}
+    62%  {width: 524px;}
+    63%  {width: 559px;}
+    64%  {width: 594px;}
+    65%  {width: 629px;}
+    66%  {width: 664px;}
+    67%  {width: 699px;}
+    68%  {width: 734px;}
+    69%  {width: 769px;}
+    70%  {width: 804px;}
+    71%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date2_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date2_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date2_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date2_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date2_var5_anim {
+    0%   {background-color: white;}
+    51%  {background-color: white;}
+    52%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var6_anim {
+    0%   {background-color: white;}
+    52%  {background-color: white;}
+    53%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var7_anim {
+    0%   {background-color: white;}
+    53%  {background-color: white;}
+    54%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var8_anim {
+    0%   {background-color: white;}
+    54%  {background-color: white;}
+    55%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var9_anim {
+    0%   {background-color: white;}
+    55%  {background-color: white;}
+    56%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var10_anim {
+    0%   {background-color: white;}
+    56%  {background-color: white;}
+    57%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var11_anim {
+    0%   {background-color: white;}
+    57%  {background-color: white;}
+    58%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var12_anim {
+    0%   {background-color: white;}
+    58%  {background-color: white;}
+    59%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var13_anim {
+    0%   {background-color: white;}
+    59%  {background-color: white;}
+    60%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var14_anim {
+    0%   {background-color: white;}
+    60%  {background-color: white;}
+    61%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var15_anim {
+    0%   {background-color: white;}
+    61%  {background-color: white;}
+    62%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var16_anim {
+    0%   {background-color: white;}
+    62%  {background-color: white;}
+    63%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var17_anim {
+    0%   {background-color: white;}
+    63%  {background-color: white;}
+    64%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var18_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var19_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var20_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var21_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var22_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var23_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date2_var24_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date3_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    52%  {width: 139px;}
+    53%  {width: 174px;}
+    54%  {width: 209px;}
+    55%  {width: 244px;}
+    56%  {width: 279px;}
+    57%  {width: 314px;}
+    58%  {width: 349px;}
+    59%  {width: 384px;}
+    60%  {width: 419px;}
+    61%  {width: 454px;}
+    62%  {width: 489px;}
+    63%  {width: 524px;}
+    64%  {width: 559px;}
+    65%  {width: 594px;}
+    66%  {width: 629px;}
+    67%  {width: 664px;}
+    68%  {width: 699px;}
+    69%  {width: 734px;}
+    70%  {width: 769px;}
+    71%  {width: 804px;}
+    72%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date3_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date3_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date3_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date3_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date3_var5_anim {
+    0%   {background-color: white;}
+    52%  {background-color: white;}
+    53%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var6_anim {
+    0%   {background-color: white;}
+    53%  {background-color: white;}
+    54%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var7_anim {
+    0%   {background-color: white;}
+    54%  {background-color: white;}
+    55%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var8_anim {
+    0%   {background-color: white;}
+    55%  {background-color: white;}
+    56%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var9_anim {
+    0%   {background-color: white;}
+    56%  {background-color: white;}
+    57%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var10_anim {
+    0%   {background-color: white;}
+    57%  {background-color: white;}
+    58%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var11_anim {
+    0%   {background-color: white;}
+    58%  {background-color: white;}
+    59%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var12_anim {
+    0%   {background-color: white;}
+    59%  {background-color: white;}
+    60%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var13_anim {
+    0%   {background-color: white;}
+    60%  {background-color: white;}
+    61%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var14_anim {
+    0%   {background-color: white;}
+    61%  {background-color: white;}
+    62%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var15_anim {
+    0%   {background-color: white;}
+    62%  {background-color: white;}
+    63%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var16_anim {
+    0%   {background-color: white;}
+    63%  {background-color: white;}
+    64%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var17_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var18_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var19_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var20_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var21_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var22_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var23_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date3_var24_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date4_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    53%  {width: 139px;}
+    54%  {width: 174px;}
+    55%  {width: 209px;}
+    56%  {width: 244px;}
+    57%  {width: 279px;}
+    58%  {width: 314px;}
+    59%  {width: 349px;}
+    60%  {width: 384px;}
+    61%  {width: 419px;}
+    62%  {width: 454px;}
+    63%  {width: 489px;}
+    64%  {width: 524px;}
+    65%  {width: 559px;}
+    66%  {width: 594px;}
+    67%  {width: 629px;}
+    68%  {width: 664px;}
+    69%  {width: 699px;}
+    70%  {width: 734px;}
+    71%  {width: 769px;}
+    72%  {width: 804px;}
+    73%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date4_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date4_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date4_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date4_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date4_var5_anim {
+    0%   {background-color: white;}
+    53%  {background-color: white;}
+    54%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var6_anim {
+    0%   {background-color: white;}
+    54%  {background-color: white;}
+    55%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var7_anim {
+    0%   {background-color: white;}
+    55%  {background-color: white;}
+    56%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var8_anim {
+    0%   {background-color: white;}
+    56%  {background-color: white;}
+    57%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var9_anim {
+    0%   {background-color: white;}
+    57%  {background-color: white;}
+    58%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var10_anim {
+    0%   {background-color: white;}
+    58%  {background-color: white;}
+    59%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var11_anim {
+    0%   {background-color: white;}
+    59%  {background-color: white;}
+    60%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var12_anim {
+    0%   {background-color: white;}
+    60%  {background-color: white;}
+    61%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var13_anim {
+    0%   {background-color: white;}
+    61%  {background-color: white;}
+    62%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var14_anim {
+    0%   {background-color: white;}
+    62%  {background-color: white;}
+    63%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var15_anim {
+    0%   {background-color: white;}
+    63%  {background-color: white;}
+    64%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var16_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var17_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var18_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var19_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var20_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var21_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var22_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var23_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date4_var24_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date5_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    54%  {width: 139px;}
+    55%  {width: 174px;}
+    56%  {width: 209px;}
+    57%  {width: 244px;}
+    58%  {width: 279px;}
+    59%  {width: 314px;}
+    60%  {width: 349px;}
+    61%  {width: 384px;}
+    62%  {width: 419px;}
+    63%  {width: 454px;}
+    64%  {width: 489px;}
+    65%  {width: 524px;}
+    66%  {width: 559px;}
+    67%  {width: 594px;}
+    68%  {width: 629px;}
+    69%  {width: 664px;}
+    70%  {width: 699px;}
+    71%  {width: 734px;}
+    72%  {width: 769px;}
+    73%  {width: 804px;}
+    74%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date5_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date5_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date5_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date5_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date5_var5_anim {
+    0%   {background-color: white;}
+    54%  {background-color: white;}
+    55%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var6_anim {
+    0%   {background-color: white;}
+    55%  {background-color: white;}
+    56%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var7_anim {
+    0%   {background-color: white;}
+    56%  {background-color: white;}
+    57%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var8_anim {
+    0%   {background-color: white;}
+    57%  {background-color: white;}
+    58%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var9_anim {
+    0%   {background-color: white;}
+    58%  {background-color: white;}
+    59%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var10_anim {
+    0%   {background-color: white;}
+    59%  {background-color: white;}
+    60%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var11_anim {
+    0%   {background-color: white;}
+    60%  {background-color: white;}
+    61%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var12_anim {
+    0%   {background-color: white;}
+    61%  {background-color: white;}
+    62%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var13_anim {
+    0%   {background-color: white;}
+    62%  {background-color: white;}
+    63%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var14_anim {
+    0%   {background-color: white;}
+    63%  {background-color: white;}
+    64%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var15_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var16_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var17_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var18_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var19_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var20_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var21_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var22_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var23_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date5_var24_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date6_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    55%  {width: 139px;}
+    56%  {width: 174px;}
+    57%  {width: 209px;}
+    58%  {width: 244px;}
+    59%  {width: 279px;}
+    60%  {width: 314px;}
+    61%  {width: 349px;}
+    62%  {width: 384px;}
+    63%  {width: 419px;}
+    64%  {width: 454px;}
+    65%  {width: 489px;}
+    66%  {width: 524px;}
+    67%  {width: 559px;}
+    68%  {width: 594px;}
+    69%  {width: 629px;}
+    70%  {width: 664px;}
+    71%  {width: 699px;}
+    72%  {width: 734px;}
+    73%  {width: 769px;}
+    74%  {width: 804px;}
+    75%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date6_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date6_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date6_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date6_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date6_var5_anim {
+    0%   {background-color: white;}
+    55%  {background-color: white;}
+    56%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var6_anim {
+    0%   {background-color: white;}
+    56%  {background-color: white;}
+    57%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var7_anim {
+    0%   {background-color: white;}
+    57%  {background-color: white;}
+    58%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var8_anim {
+    0%   {background-color: white;}
+    58%  {background-color: white;}
+    59%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var9_anim {
+    0%   {background-color: white;}
+    59%  {background-color: white;}
+    60%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var10_anim {
+    0%   {background-color: white;}
+    60%  {background-color: white;}
+    61%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var11_anim {
+    0%   {background-color: white;}
+    61%  {background-color: white;}
+    62%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var12_anim {
+    0%   {background-color: white;}
+    62%  {background-color: white;}
+    63%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var13_anim {
+    0%   {background-color: white;}
+    63%  {background-color: white;}
+    64%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var14_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var15_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var16_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var17_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var18_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var19_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var20_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var21_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var22_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var23_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date6_var24_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date7_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    56%  {width: 139px;}
+    57%  {width: 174px;}
+    58%  {width: 209px;}
+    59%  {width: 244px;}
+    60%  {width: 279px;}
+    61%  {width: 314px;}
+    62%  {width: 349px;}
+    63%  {width: 384px;}
+    64%  {width: 419px;}
+    65%  {width: 454px;}
+    66%  {width: 489px;}
+    67%  {width: 524px;}
+    68%  {width: 559px;}
+    69%  {width: 594px;}
+    70%  {width: 629px;}
+    71%  {width: 664px;}
+    72%  {width: 699px;}
+    73%  {width: 734px;}
+    74%  {width: 769px;}
+    75%  {width: 804px;}
+    76%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date7_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date7_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date7_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date7_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date7_var5_anim {
+    0%   {background-color: white;}
+    56%  {background-color: white;}
+    57%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var6_anim {
+    0%   {background-color: white;}
+    57%  {background-color: white;}
+    58%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var7_anim {
+    0%   {background-color: white;}
+    58%  {background-color: white;}
+    59%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var8_anim {
+    0%   {background-color: white;}
+    59%  {background-color: white;}
+    60%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var9_anim {
+    0%   {background-color: white;}
+    60%  {background-color: white;}
+    61%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var10_anim {
+    0%   {background-color: white;}
+    61%  {background-color: white;}
+    62%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var11_anim {
+    0%   {background-color: white;}
+    62%  {background-color: white;}
+    63%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var12_anim {
+    0%   {background-color: white;}
+    63%  {background-color: white;}
+    64%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var13_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var14_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var15_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var16_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var17_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var18_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var19_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var20_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var21_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var22_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var23_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date7_var24_anim {
+    0%   {background-color: white;}
+    75%  {background-color: white;}
+    76%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date8_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    57%  {width: 139px;}
+    58%  {width: 174px;}
+    59%  {width: 209px;}
+    60%  {width: 244px;}
+    61%  {width: 279px;}
+    62%  {width: 314px;}
+    63%  {width: 349px;}
+    64%  {width: 384px;}
+    65%  {width: 419px;}
+    66%  {width: 454px;}
+    67%  {width: 489px;}
+    68%  {width: 524px;}
+    69%  {width: 559px;}
+    70%  {width: 594px;}
+    71%  {width: 629px;}
+    72%  {width: 664px;}
+    73%  {width: 699px;}
+    74%  {width: 734px;}
+    75%  {width: 769px;}
+    76%  {width: 804px;}
+    77%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date8_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date8_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date8_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date8_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date8_var5_anim {
+    0%   {background-color: white;}
+    57%  {background-color: white;}
+    58%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var6_anim {
+    0%   {background-color: white;}
+    58%  {background-color: white;}
+    59%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var7_anim {
+    0%   {background-color: white;}
+    59%  {background-color: white;}
+    60%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var8_anim {
+    0%   {background-color: white;}
+    60%  {background-color: white;}
+    61%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var9_anim {
+    0%   {background-color: white;}
+    61%  {background-color: white;}
+    62%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var10_anim {
+    0%   {background-color: white;}
+    62%  {background-color: white;}
+    63%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var11_anim {
+    0%   {background-color: white;}
+    63%  {background-color: white;}
+    64%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var12_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var13_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var14_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var15_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var16_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var17_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var18_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var19_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var20_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var21_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var22_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var23_anim {
+    0%   {background-color: white;}
+    75%  {background-color: white;}
+    76%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date8_var24_anim {
+    0%   {background-color: white;}
+    76%  {background-color: white;}
+    77%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date9_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    58%  {width: 139px;}
+    59%  {width: 174px;}
+    60%  {width: 209px;}
+    61%  {width: 244px;}
+    62%  {width: 279px;}
+    63%  {width: 314px;}
+    64%  {width: 349px;}
+    65%  {width: 384px;}
+    66%  {width: 419px;}
+    67%  {width: 454px;}
+    68%  {width: 489px;}
+    69%  {width: 524px;}
+    70%  {width: 559px;}
+    71%  {width: 594px;}
+    72%  {width: 629px;}
+    73%  {width: 664px;}
+    74%  {width: 699px;}
+    75%  {width: 734px;}
+    76%  {width: 769px;}
+    77%  {width: 804px;}
+    78%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date9_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date9_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date9_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date9_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date9_var5_anim {
+    0%   {background-color: white;}
+    58%  {background-color: white;}
+    59%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var6_anim {
+    0%   {background-color: white;}
+    59%  {background-color: white;}
+    60%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var7_anim {
+    0%   {background-color: white;}
+    60%  {background-color: white;}
+    61%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var8_anim {
+    0%   {background-color: white;}
+    61%  {background-color: white;}
+    62%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var9_anim {
+    0%   {background-color: white;}
+    62%  {background-color: white;}
+    63%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var10_anim {
+    0%   {background-color: white;}
+    63%  {background-color: white;}
+    64%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var11_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var12_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var13_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var14_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var15_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var16_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var17_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var18_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var19_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var20_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var21_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var22_anim {
+    0%   {background-color: white;}
+    75%  {background-color: white;}
+    76%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var23_anim {
+    0%   {background-color: white;}
+    76%  {background-color: white;}
+    77%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date9_var24_anim {
+    0%   {background-color: white;}
+    77%  {background-color: white;}
+    78%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date10_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    59%  {width: 139px;}
+    60%  {width: 174px;}
+    61%  {width: 209px;}
+    62%  {width: 244px;}
+    63%  {width: 279px;}
+    64%  {width: 314px;}
+    65%  {width: 349px;}
+    66%  {width: 384px;}
+    67%  {width: 419px;}
+    68%  {width: 454px;}
+    69%  {width: 489px;}
+    70%  {width: 524px;}
+    71%  {width: 559px;}
+    72%  {width: 594px;}
+    73%  {width: 629px;}
+    74%  {width: 664px;}
+    75%  {width: 699px;}
+    76%  {width: 734px;}
+    77%  {width: 769px;}
+    78%  {width: 804px;}
+    79%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date10_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date10_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date10_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date10_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date10_var5_anim {
+    0%   {background-color: white;}
+    59%  {background-color: white;}
+    60%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var6_anim {
+    0%   {background-color: white;}
+    60%  {background-color: white;}
+    61%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var7_anim {
+    0%   {background-color: white;}
+    61%  {background-color: white;}
+    62%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var8_anim {
+    0%   {background-color: white;}
+    62%  {background-color: white;}
+    63%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var9_anim {
+    0%   {background-color: white;}
+    63%  {background-color: white;}
+    64%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var10_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var11_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var12_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var13_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var14_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var15_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var16_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var17_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var18_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var19_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var20_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var21_anim {
+    0%   {background-color: white;}
+    75%  {background-color: white;}
+    76%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var22_anim {
+    0%   {background-color: white;}
+    76%  {background-color: white;}
+    77%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var23_anim {
+    0%   {background-color: white;}
+    77%  {background-color: white;}
+    78%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date10_var24_anim {
+    0%   {background-color: white;}
+    78%  {background-color: white;}
+    79%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date11_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    60%  {width: 139px;}
+    61%  {width: 174px;}
+    62%  {width: 209px;}
+    63%  {width: 244px;}
+    64%  {width: 279px;}
+    65%  {width: 314px;}
+    66%  {width: 349px;}
+    67%  {width: 384px;}
+    68%  {width: 419px;}
+    69%  {width: 454px;}
+    70%  {width: 489px;}
+    71%  {width: 524px;}
+    72%  {width: 559px;}
+    73%  {width: 594px;}
+    74%  {width: 629px;}
+    75%  {width: 664px;}
+    76%  {width: 699px;}
+    77%  {width: 734px;}
+    78%  {width: 769px;}
+    79%  {width: 804px;}
+    80%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date11_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date11_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date11_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date11_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date11_var5_anim {
+    0%   {background-color: white;}
+    60%  {background-color: white;}
+    61%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var6_anim {
+    0%   {background-color: white;}
+    61%  {background-color: white;}
+    62%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var7_anim {
+    0%   {background-color: white;}
+    62%  {background-color: white;}
+    63%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var8_anim {
+    0%   {background-color: white;}
+    63%  {background-color: white;}
+    64%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var9_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var10_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var11_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var12_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var13_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var14_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var15_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var16_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var17_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var18_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var19_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var20_anim {
+    0%   {background-color: white;}
+    75%  {background-color: white;}
+    76%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var21_anim {
+    0%   {background-color: white;}
+    76%  {background-color: white;}
+    77%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var22_anim {
+    0%   {background-color: white;}
+    77%  {background-color: white;}
+    78%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var23_anim {
+    0%   {background-color: white;}
+    78%  {background-color: white;}
+    79%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date11_var24_anim {
+    0%   {background-color: white;}
+    79%  {background-color: white;}
+    80%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date12_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    61%  {width: 139px;}
+    62%  {width: 174px;}
+    63%  {width: 209px;}
+    64%  {width: 244px;}
+    65%  {width: 279px;}
+    66%  {width: 314px;}
+    67%  {width: 349px;}
+    68%  {width: 384px;}
+    69%  {width: 419px;}
+    70%  {width: 454px;}
+    71%  {width: 489px;}
+    72%  {width: 524px;}
+    73%  {width: 559px;}
+    74%  {width: 594px;}
+    75%  {width: 629px;}
+    76%  {width: 664px;}
+    77%  {width: 699px;}
+    78%  {width: 734px;}
+    79%  {width: 769px;}
+    80%  {width: 804px;}
+    81%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date12_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date12_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date12_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date12_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date12_var5_anim {
+    0%   {background-color: white;}
+    61%  {background-color: white;}
+    62%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var6_anim {
+    0%   {background-color: white;}
+    62%  {background-color: white;}
+    63%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var7_anim {
+    0%   {background-color: white;}
+    63%  {background-color: white;}
+    64%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var8_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var9_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var10_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var11_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var12_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var13_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var14_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var15_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var16_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var17_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var18_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var19_anim {
+    0%   {background-color: white;}
+    75%  {background-color: white;}
+    76%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var20_anim {
+    0%   {background-color: white;}
+    76%  {background-color: white;}
+    77%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var21_anim {
+    0%   {background-color: white;}
+    77%  {background-color: white;}
+    78%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var22_anim {
+    0%   {background-color: white;}
+    78%  {background-color: white;}
+    79%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var23_anim {
+    0%   {background-color: white;}
+    79%  {background-color: white;}
+    80%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date12_var24_anim {
+    0%   {background-color: white;}
+    80%  {background-color: white;}
+    81%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date13_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    62%  {width: 139px;}
+    63%  {width: 174px;}
+    64%  {width: 209px;}
+    65%  {width: 244px;}
+    66%  {width: 279px;}
+    67%  {width: 314px;}
+    68%  {width: 349px;}
+    69%  {width: 384px;}
+    70%  {width: 419px;}
+    71%  {width: 454px;}
+    72%  {width: 489px;}
+    73%  {width: 524px;}
+    74%  {width: 559px;}
+    75%  {width: 594px;}
+    76%  {width: 629px;}
+    77%  {width: 664px;}
+    78%  {width: 699px;}
+    79%  {width: 734px;}
+    80%  {width: 769px;}
+    81%  {width: 804px;}
+    82%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date13_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date13_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date13_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date13_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date13_var5_anim {
+    0%   {background-color: white;}
+    62%  {background-color: white;}
+    63%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var6_anim {
+    0%   {background-color: white;}
+    63%  {background-color: white;}
+    64%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var7_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var8_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var9_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var10_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var11_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var12_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var13_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var14_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var15_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var16_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var17_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var18_anim {
+    0%   {background-color: white;}
+    75%  {background-color: white;}
+    76%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var19_anim {
+    0%   {background-color: white;}
+    76%  {background-color: white;}
+    77%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var20_anim {
+    0%   {background-color: white;}
+    77%  {background-color: white;}
+    78%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var21_anim {
+    0%   {background-color: white;}
+    78%  {background-color: white;}
+    79%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var22_anim {
+    0%   {background-color: white;}
+    79%  {background-color: white;}
+    80%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var23_anim {
+    0%   {background-color: white;}
+    80%  {background-color: white;}
+    81%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date13_var24_anim {
+    0%   {background-color: white;}
+    81%  {background-color: white;}
+    82%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date14_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    63%  {width: 139px;}
+    64%  {width: 174px;}
+    65%  {width: 209px;}
+    66%  {width: 244px;}
+    67%  {width: 279px;}
+    68%  {width: 314px;}
+    69%  {width: 349px;}
+    70%  {width: 384px;}
+    71%  {width: 419px;}
+    72%  {width: 454px;}
+    73%  {width: 489px;}
+    74%  {width: 524px;}
+    75%  {width: 559px;}
+    76%  {width: 594px;}
+    77%  {width: 629px;}
+    78%  {width: 664px;}
+    79%  {width: 699px;}
+    80%  {width: 734px;}
+    81%  {width: 769px;}
+    82%  {width: 804px;}
+    83%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date14_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date14_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date14_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date14_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date14_var5_anim {
+    0%   {background-color: white;}
+    63%  {background-color: white;}
+    64%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var6_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var7_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var8_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var9_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var10_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var11_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var12_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var13_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var14_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var15_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var16_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var17_anim {
+    0%   {background-color: white;}
+    75%  {background-color: white;}
+    76%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var18_anim {
+    0%   {background-color: white;}
+    76%  {background-color: white;}
+    77%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var19_anim {
+    0%   {background-color: white;}
+    77%  {background-color: white;}
+    78%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var20_anim {
+    0%   {background-color: white;}
+    78%  {background-color: white;}
+    79%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var21_anim {
+    0%   {background-color: white;}
+    79%  {background-color: white;}
+    80%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var22_anim {
+    0%   {background-color: white;}
+    80%  {background-color: white;}
+    81%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var23_anim {
+    0%   {background-color: white;}
+    81%  {background-color: white;}
+    82%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date14_var24_anim {
+    0%   {background-color: white;}
+    82%  {background-color: white;}
+    83%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date15_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    64%  {width: 139px;}
+    65%  {width: 174px;}
+    66%  {width: 209px;}
+    67%  {width: 244px;}
+    68%  {width: 279px;}
+    69%  {width: 314px;}
+    70%  {width: 349px;}
+    71%  {width: 384px;}
+    72%  {width: 419px;}
+    73%  {width: 454px;}
+    74%  {width: 489px;}
+    75%  {width: 524px;}
+    76%  {width: 559px;}
+    77%  {width: 594px;}
+    78%  {width: 629px;}
+    79%  {width: 664px;}
+    80%  {width: 699px;}
+    81%  {width: 734px;}
+    82%  {width: 769px;}
+    83%  {width: 804px;}
+    84%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date15_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date15_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date15_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date15_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date15_var5_anim {
+    0%   {background-color: white;}
+    64%  {background-color: white;}
+    65%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var6_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var7_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var8_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var9_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var10_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var11_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var12_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var13_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var14_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var15_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var16_anim {
+    0%   {background-color: white;}
+    75%  {background-color: white;}
+    76%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var17_anim {
+    0%   {background-color: white;}
+    76%  {background-color: white;}
+    77%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var18_anim {
+    0%   {background-color: white;}
+    77%  {background-color: white;}
+    78%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var19_anim {
+    0%   {background-color: white;}
+    78%  {background-color: white;}
+    79%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var20_anim {
+    0%   {background-color: white;}
+    79%  {background-color: white;}
+    80%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var21_anim {
+    0%   {background-color: white;}
+    80%  {background-color: white;}
+    81%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var22_anim {
+    0%   {background-color: white;}
+    81%  {background-color: white;}
+    82%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var23_anim {
+    0%   {background-color: white;}
+    82%  {background-color: white;}
+    83%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date15_var24_anim {
+    0%   {background-color: white;}
+    83%  {background-color: white;}
+    84%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date16_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    65%  {width: 139px;}
+    66%  {width: 174px;}
+    67%  {width: 209px;}
+    68%  {width: 244px;}
+    69%  {width: 279px;}
+    70%  {width: 314px;}
+    71%  {width: 349px;}
+    72%  {width: 384px;}
+    73%  {width: 419px;}
+    74%  {width: 454px;}
+    75%  {width: 489px;}
+    76%  {width: 524px;}
+    77%  {width: 559px;}
+    78%  {width: 594px;}
+    79%  {width: 629px;}
+    80%  {width: 664px;}
+    81%  {width: 699px;}
+    82%  {width: 734px;}
+    83%  {width: 769px;}
+    84%  {width: 804px;}
+    85%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date16_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date16_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date16_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date16_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date16_var5_anim {
+    0%   {background-color: white;}
+    65%  {background-color: white;}
+    66%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var6_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var7_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var8_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var9_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var10_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var11_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var12_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var13_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var14_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var15_anim {
+    0%   {background-color: white;}
+    75%  {background-color: white;}
+    76%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var16_anim {
+    0%   {background-color: white;}
+    76%  {background-color: white;}
+    77%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var17_anim {
+    0%   {background-color: white;}
+    77%  {background-color: white;}
+    78%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var18_anim {
+    0%   {background-color: white;}
+    78%  {background-color: white;}
+    79%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var19_anim {
+    0%   {background-color: white;}
+    79%  {background-color: white;}
+    80%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var20_anim {
+    0%   {background-color: white;}
+    80%  {background-color: white;}
+    81%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var21_anim {
+    0%   {background-color: white;}
+    81%  {background-color: white;}
+    82%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var22_anim {
+    0%   {background-color: white;}
+    82%  {background-color: white;}
+    83%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var23_anim {
+    0%   {background-color: white;}
+    83%  {background-color: white;}
+    84%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date16_var24_anim {
+    0%   {background-color: white;}
+    84%  {background-color: white;}
+    85%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date17_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    66%  {width: 139px;}
+    67%  {width: 174px;}
+    68%  {width: 209px;}
+    69%  {width: 244px;}
+    70%  {width: 279px;}
+    71%  {width: 314px;}
+    72%  {width: 349px;}
+    73%  {width: 384px;}
+    74%  {width: 419px;}
+    75%  {width: 454px;}
+    76%  {width: 489px;}
+    77%  {width: 524px;}
+    78%  {width: 559px;}
+    79%  {width: 594px;}
+    80%  {width: 629px;}
+    81%  {width: 664px;}
+    82%  {width: 699px;}
+    83%  {width: 734px;}
+    84%  {width: 769px;}
+    85%  {width: 804px;}
+    86%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date17_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date17_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date17_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date17_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date17_var5_anim {
+    0%   {background-color: white;}
+    66%  {background-color: white;}
+    67%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var6_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var7_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var8_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var9_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var10_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var11_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var12_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var13_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var14_anim {
+    0%   {background-color: white;}
+    75%  {background-color: white;}
+    76%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var15_anim {
+    0%   {background-color: white;}
+    76%  {background-color: white;}
+    77%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var16_anim {
+    0%   {background-color: white;}
+    77%  {background-color: white;}
+    78%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var17_anim {
+    0%   {background-color: white;}
+    78%  {background-color: white;}
+    79%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var18_anim {
+    0%   {background-color: white;}
+    79%  {background-color: white;}
+    80%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var19_anim {
+    0%   {background-color: white;}
+    80%  {background-color: white;}
+    81%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var20_anim {
+    0%   {background-color: white;}
+    81%  {background-color: white;}
+    82%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var21_anim {
+    0%   {background-color: white;}
+    82%  {background-color: white;}
+    83%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var22_anim {
+    0%   {background-color: white;}
+    83%  {background-color: white;}
+    84%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var23_anim {
+    0%   {background-color: white;}
+    84%  {background-color: white;}
+    85%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date17_var24_anim {
+    0%   {background-color: white;}
+    85%  {background-color: white;}
+    86%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date18_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    67%  {width: 139px;}
+    68%  {width: 174px;}
+    69%  {width: 209px;}
+    70%  {width: 244px;}
+    71%  {width: 279px;}
+    72%  {width: 314px;}
+    73%  {width: 349px;}
+    74%  {width: 384px;}
+    75%  {width: 419px;}
+    76%  {width: 454px;}
+    77%  {width: 489px;}
+    78%  {width: 524px;}
+    79%  {width: 559px;}
+    80%  {width: 594px;}
+    81%  {width: 629px;}
+    82%  {width: 664px;}
+    83%  {width: 699px;}
+    84%  {width: 734px;}
+    85%  {width: 769px;}
+    86%  {width: 804px;}
+    87%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date18_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date18_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date18_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date18_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date18_var5_anim {
+    0%   {background-color: white;}
+    67%  {background-color: white;}
+    68%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var6_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var7_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var8_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var9_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var10_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var11_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var12_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var13_anim {
+    0%   {background-color: white;}
+    75%  {background-color: white;}
+    76%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var14_anim {
+    0%   {background-color: white;}
+    76%  {background-color: white;}
+    77%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var15_anim {
+    0%   {background-color: white;}
+    77%  {background-color: white;}
+    78%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var16_anim {
+    0%   {background-color: white;}
+    78%  {background-color: white;}
+    79%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var17_anim {
+    0%   {background-color: white;}
+    79%  {background-color: white;}
+    80%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var18_anim {
+    0%   {background-color: white;}
+    80%  {background-color: white;}
+    81%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var19_anim {
+    0%   {background-color: white;}
+    81%  {background-color: white;}
+    82%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var20_anim {
+    0%   {background-color: white;}
+    82%  {background-color: white;}
+    83%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var21_anim {
+    0%   {background-color: white;}
+    83%  {background-color: white;}
+    84%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var22_anim {
+    0%   {background-color: white;}
+    84%  {background-color: white;}
+    85%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var23_anim {
+    0%   {background-color: white;}
+    85%  {background-color: white;}
+    86%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date18_var24_anim {
+    0%   {background-color: white;}
+    86%  {background-color: white;}
+    87%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date19_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    68%  {width: 139px;}
+    69%  {width: 174px;}
+    70%  {width: 209px;}
+    71%  {width: 244px;}
+    72%  {width: 279px;}
+    73%  {width: 314px;}
+    74%  {width: 349px;}
+    75%  {width: 384px;}
+    76%  {width: 419px;}
+    77%  {width: 454px;}
+    78%  {width: 489px;}
+    79%  {width: 524px;}
+    80%  {width: 559px;}
+    81%  {width: 594px;}
+    82%  {width: 629px;}
+    83%  {width: 664px;}
+    84%  {width: 699px;}
+    85%  {width: 734px;}
+    86%  {width: 769px;}
+    87%  {width: 804px;}
+    88%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date19_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date19_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date19_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date19_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date19_var5_anim {
+    0%   {background-color: white;}
+    68%  {background-color: white;}
+    69%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var6_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var7_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var8_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var9_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var10_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var11_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var12_anim {
+    0%   {background-color: white;}
+    75%  {background-color: white;}
+    76%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var13_anim {
+    0%   {background-color: white;}
+    76%  {background-color: white;}
+    77%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var14_anim {
+    0%   {background-color: white;}
+    77%  {background-color: white;}
+    78%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var15_anim {
+    0%   {background-color: white;}
+    78%  {background-color: white;}
+    79%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var16_anim {
+    0%   {background-color: white;}
+    79%  {background-color: white;}
+    80%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var17_anim {
+    0%   {background-color: white;}
+    80%  {background-color: white;}
+    81%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var18_anim {
+    0%   {background-color: white;}
+    81%  {background-color: white;}
+    82%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var19_anim {
+    0%   {background-color: white;}
+    82%  {background-color: white;}
+    83%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var20_anim {
+    0%   {background-color: white;}
+    83%  {background-color: white;}
+    84%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var21_anim {
+    0%   {background-color: white;}
+    84%  {background-color: white;}
+    85%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var22_anim {
+    0%   {background-color: white;}
+    85%  {background-color: white;}
+    86%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var23_anim {
+    0%   {background-color: white;}
+    86%  {background-color: white;}
+    87%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date19_var24_anim {
+    0%   {background-color: white;}
+    87%  {background-color: white;}
+    88%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+@keyframes wxcd_date20_collection_anim {
+    0%   {width: 34px;}
+    11%  {width: 34px;}
+    12%  {width: 69px;}
+    13%  {width: 104px;}
+    14%  {width: 139px;}
+    69%  {width: 139px;}
+    70%  {width: 174px;}
+    71%  {width: 209px;}
+    72%  {width: 244px;}
+    73%  {width: 279px;}
+    74%  {width: 314px;}
+    75%  {width: 349px;}
+    76%  {width: 384px;}
+    77%  {width: 419px;}
+    78%  {width: 454px;}
+    79%  {width: 489px;}
+    80%  {width: 524px;}
+    81%  {width: 559px;}
+    82%  {width: 594px;}
+    83%  {width: 629px;}
+    84%  {width: 664px;}
+    85%  {width: 699px;}
+    86%  {width: 734px;}
+    87%  {width: 769px;}
+    88%  {width: 804px;}
+    89%  {width: 839px;}
+    100% {width: 839px;}
+}
+@keyframes wxcd_date20_var1_anim {
+    0%   {background-color: white;}
+    10%  {background-color: white;}
+    11%  {background-color: yellow;}
+    100% {background-color: yellow;}
+}
+@keyframes wxcd_date20_var2_anim {
+    0%   {background-color: white;}
+    11%  {background-color: white;}
+    12%  {background-color: red;}
+    100% {background-color: red;}
+}
+@keyframes wxcd_date20_var3_anim {
+    0%   {background-color: white;}
+    12%  {background-color: white;}
+    13%  {background-color: blue;}
+    100% {background-color: blue;}
+}
+@keyframes wxcd_date20_var4_anim {
+    0%   {background-color: white;}
+    13%  {background-color: white;}
+    14%  {background-color: orange;}
+    100% {background-color: orange;}
+}
+@keyframes wxcd_date20_var5_anim {
+    0%   {background-color: white;}
+    69%  {background-color: white;}
+    70%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var6_anim {
+    0%   {background-color: white;}
+    70%  {background-color: white;}
+    71%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var7_anim {
+    0%   {background-color: white;}
+    71%  {background-color: white;}
+    72%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var8_anim {
+    0%   {background-color: white;}
+    72%  {background-color: white;}
+    73%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var9_anim {
+    0%   {background-color: white;}
+    73%  {background-color: white;}
+    74%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var10_anim {
+    0%   {background-color: white;}
+    74%  {background-color: white;}
+    75%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var11_anim {
+    0%   {background-color: white;}
+    75%  {background-color: white;}
+    76%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var12_anim {
+    0%   {background-color: white;}
+    76%  {background-color: white;}
+    77%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var13_anim {
+    0%   {background-color: white;}
+    77%  {background-color: white;}
+    78%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var14_anim {
+    0%   {background-color: white;}
+    78%  {background-color: white;}
+    79%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var15_anim {
+    0%   {background-color: white;}
+    79%  {background-color: white;}
+    80%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var16_anim {
+    0%   {background-color: white;}
+    80%  {background-color: white;}
+    81%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var17_anim {
+    0%   {background-color: white;}
+    81%  {background-color: white;}
+    82%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var18_anim {
+    0%   {background-color: white;}
+    82%  {background-color: white;}
+    83%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var19_anim {
+    0%   {background-color: white;}
+    83%  {background-color: white;}
+    84%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var20_anim {
+    0%   {background-color: white;}
+    84%  {background-color: white;}
+    85%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var21_anim {
+    0%   {background-color: white;}
+    85%  {background-color: white;}
+    86%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var22_anim {
+    0%   {background-color: white;}
+    86%  {background-color: white;}
+    87%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var23_anim {
+    0%   {background-color: white;}
+    87%  {background-color: white;}
+    88%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+@keyframes wxcd_date20_var24_anim {
+    0%   {background-color: white;}
+    88%  {background-color: white;}
+    89%  {background-color: purple;}
+    100% {background-color: purple;}
+}
+
+</style>
+</head>
+  <body>
+    <h1>HTCondor "flood DAG" animated example</h1>
+    <h3>sequential/rolling calculations with non-interfering file access</h3>
+    <div class="container">
+      <div class="animated card collection wxcd_date1_collection"></div>
+      <div class="animated card grid wxcd_date1_var1"></div>
+      <div class="animated card grid wxcd_date1_var2"></div>
+      <div class="animated card grid wxcd_date1_var3"></div>
+      <div class="animated card grid wxcd_date1_var4"></div>
+      <div class="animated card grid wxcd_date1_var5"></div>
+      <div class="animated card grid wxcd_date1_var6"></div>
+      <div class="animated card grid wxcd_date1_var7"></div>
+      <div class="animated card grid wxcd_date1_var8"></div>
+      <div class="animated card grid wxcd_date1_var9"></div>
+      <div class="animated card grid wxcd_date1_var10"></div>
+      <div class="animated card grid wxcd_date1_var11"></div>
+      <div class="animated card grid wxcd_date1_var12"></div>
+      <div class="animated card grid wxcd_date1_var13"></div>
+      <div class="animated card grid wxcd_date1_var14"></div>
+      <div class="animated card grid wxcd_date1_var15"></div>
+      <div class="animated card grid wxcd_date1_var16"></div>
+      <div class="animated card grid wxcd_date1_var17"></div>
+      <div class="animated card grid wxcd_date1_var18"></div>
+      <div class="animated card grid wxcd_date1_var19"></div>
+      <div class="animated card grid wxcd_date1_var20"></div>
+      <div class="animated card grid wxcd_date1_var21"></div>
+      <div class="animated card grid wxcd_date1_var22"></div>
+      <div class="animated card grid wxcd_date1_var23"></div>
+      <div class="animated card grid wxcd_date1_var24"></div>
+      <div class="animated card collection wxcd_date2_collection"></div>
+      <div class="animated card grid wxcd_date2_var1"></div>
+      <div class="animated card grid wxcd_date2_var2"></div>
+      <div class="animated card grid wxcd_date2_var3"></div>
+      <div class="animated card grid wxcd_date2_var4"></div>
+      <div class="animated card grid wxcd_date2_var5"></div>
+      <div class="animated card grid wxcd_date2_var6"></div>
+      <div class="animated card grid wxcd_date2_var7"></div>
+      <div class="animated card grid wxcd_date2_var8"></div>
+      <div class="animated card grid wxcd_date2_var9"></div>
+      <div class="animated card grid wxcd_date2_var10"></div>
+      <div class="animated card grid wxcd_date2_var11"></div>
+      <div class="animated card grid wxcd_date2_var12"></div>
+      <div class="animated card grid wxcd_date2_var13"></div>
+      <div class="animated card grid wxcd_date2_var14"></div>
+      <div class="animated card grid wxcd_date2_var15"></div>
+      <div class="animated card grid wxcd_date2_var16"></div>
+      <div class="animated card grid wxcd_date2_var17"></div>
+      <div class="animated card grid wxcd_date2_var18"></div>
+      <div class="animated card grid wxcd_date2_var19"></div>
+      <div class="animated card grid wxcd_date2_var20"></div>
+      <div class="animated card grid wxcd_date2_var21"></div>
+      <div class="animated card grid wxcd_date2_var22"></div>
+      <div class="animated card grid wxcd_date2_var23"></div>
+      <div class="animated card grid wxcd_date2_var24"></div>
+      <div class="animated card collection wxcd_date3_collection"></div>
+      <div class="animated card grid wxcd_date3_var1"></div>
+      <div class="animated card grid wxcd_date3_var2"></div>
+      <div class="animated card grid wxcd_date3_var3"></div>
+      <div class="animated card grid wxcd_date3_var4"></div>
+      <div class="animated card grid wxcd_date3_var5"></div>
+      <div class="animated card grid wxcd_date3_var6"></div>
+      <div class="animated card grid wxcd_date3_var7"></div>
+      <div class="animated card grid wxcd_date3_var8"></div>
+      <div class="animated card grid wxcd_date3_var9"></div>
+      <div class="animated card grid wxcd_date3_var10"></div>
+      <div class="animated card grid wxcd_date3_var11"></div>
+      <div class="animated card grid wxcd_date3_var12"></div>
+      <div class="animated card grid wxcd_date3_var13"></div>
+      <div class="animated card grid wxcd_date3_var14"></div>
+      <div class="animated card grid wxcd_date3_var15"></div>
+      <div class="animated card grid wxcd_date3_var16"></div>
+      <div class="animated card grid wxcd_date3_var17"></div>
+      <div class="animated card grid wxcd_date3_var18"></div>
+      <div class="animated card grid wxcd_date3_var19"></div>
+      <div class="animated card grid wxcd_date3_var20"></div>
+      <div class="animated card grid wxcd_date3_var21"></div>
+      <div class="animated card grid wxcd_date3_var22"></div>
+      <div class="animated card grid wxcd_date3_var23"></div>
+      <div class="animated card grid wxcd_date3_var24"></div>
+      <div class="animated card collection wxcd_date4_collection"></div>
+      <div class="animated card grid wxcd_date4_var1"></div>
+      <div class="animated card grid wxcd_date4_var2"></div>
+      <div class="animated card grid wxcd_date4_var3"></div>
+      <div class="animated card grid wxcd_date4_var4"></div>
+      <div class="animated card grid wxcd_date4_var5"></div>
+      <div class="animated card grid wxcd_date4_var6"></div>
+      <div class="animated card grid wxcd_date4_var7"></div>
+      <div class="animated card grid wxcd_date4_var8"></div>
+      <div class="animated card grid wxcd_date4_var9"></div>
+      <div class="animated card grid wxcd_date4_var10"></div>
+      <div class="animated card grid wxcd_date4_var11"></div>
+      <div class="animated card grid wxcd_date4_var12"></div>
+      <div class="animated card grid wxcd_date4_var13"></div>
+      <div class="animated card grid wxcd_date4_var14"></div>
+      <div class="animated card grid wxcd_date4_var15"></div>
+      <div class="animated card grid wxcd_date4_var16"></div>
+      <div class="animated card grid wxcd_date4_var17"></div>
+      <div class="animated card grid wxcd_date4_var18"></div>
+      <div class="animated card grid wxcd_date4_var19"></div>
+      <div class="animated card grid wxcd_date4_var20"></div>
+      <div class="animated card grid wxcd_date4_var21"></div>
+      <div class="animated card grid wxcd_date4_var22"></div>
+      <div class="animated card grid wxcd_date4_var23"></div>
+      <div class="animated card grid wxcd_date4_var24"></div>
+      <div class="animated card collection wxcd_date5_collection"></div>
+      <div class="animated card grid wxcd_date5_var1"></div>
+      <div class="animated card grid wxcd_date5_var2"></div>
+      <div class="animated card grid wxcd_date5_var3"></div>
+      <div class="animated card grid wxcd_date5_var4"></div>
+      <div class="animated card grid wxcd_date5_var5"></div>
+      <div class="animated card grid wxcd_date5_var6"></div>
+      <div class="animated card grid wxcd_date5_var7"></div>
+      <div class="animated card grid wxcd_date5_var8"></div>
+      <div class="animated card grid wxcd_date5_var9"></div>
+      <div class="animated card grid wxcd_date5_var10"></div>
+      <div class="animated card grid wxcd_date5_var11"></div>
+      <div class="animated card grid wxcd_date5_var12"></div>
+      <div class="animated card grid wxcd_date5_var13"></div>
+      <div class="animated card grid wxcd_date5_var14"></div>
+      <div class="animated card grid wxcd_date5_var15"></div>
+      <div class="animated card grid wxcd_date5_var16"></div>
+      <div class="animated card grid wxcd_date5_var17"></div>
+      <div class="animated card grid wxcd_date5_var18"></div>
+      <div class="animated card grid wxcd_date5_var19"></div>
+      <div class="animated card grid wxcd_date5_var20"></div>
+      <div class="animated card grid wxcd_date5_var21"></div>
+      <div class="animated card grid wxcd_date5_var22"></div>
+      <div class="animated card grid wxcd_date5_var23"></div>
+      <div class="animated card grid wxcd_date5_var24"></div>
+      <div class="animated card collection wxcd_date6_collection"></div>
+      <div class="animated card grid wxcd_date6_var1"></div>
+      <div class="animated card grid wxcd_date6_var2"></div>
+      <div class="animated card grid wxcd_date6_var3"></div>
+      <div class="animated card grid wxcd_date6_var4"></div>
+      <div class="animated card grid wxcd_date6_var5"></div>
+      <div class="animated card grid wxcd_date6_var6"></div>
+      <div class="animated card grid wxcd_date6_var7"></div>
+      <div class="animated card grid wxcd_date6_var8"></div>
+      <div class="animated card grid wxcd_date6_var9"></div>
+      <div class="animated card grid wxcd_date6_var10"></div>
+      <div class="animated card grid wxcd_date6_var11"></div>
+      <div class="animated card grid wxcd_date6_var12"></div>
+      <div class="animated card grid wxcd_date6_var13"></div>
+      <div class="animated card grid wxcd_date6_var14"></div>
+      <div class="animated card grid wxcd_date6_var15"></div>
+      <div class="animated card grid wxcd_date6_var16"></div>
+      <div class="animated card grid wxcd_date6_var17"></div>
+      <div class="animated card grid wxcd_date6_var18"></div>
+      <div class="animated card grid wxcd_date6_var19"></div>
+      <div class="animated card grid wxcd_date6_var20"></div>
+      <div class="animated card grid wxcd_date6_var21"></div>
+      <div class="animated card grid wxcd_date6_var22"></div>
+      <div class="animated card grid wxcd_date6_var23"></div>
+      <div class="animated card grid wxcd_date6_var24"></div>
+      <div class="animated card collection wxcd_date7_collection"></div>
+      <div class="animated card grid wxcd_date7_var1"></div>
+      <div class="animated card grid wxcd_date7_var2"></div>
+      <div class="animated card grid wxcd_date7_var3"></div>
+      <div class="animated card grid wxcd_date7_var4"></div>
+      <div class="animated card grid wxcd_date7_var5"></div>
+      <div class="animated card grid wxcd_date7_var6"></div>
+      <div class="animated card grid wxcd_date7_var7"></div>
+      <div class="animated card grid wxcd_date7_var8"></div>
+      <div class="animated card grid wxcd_date7_var9"></div>
+      <div class="animated card grid wxcd_date7_var10"></div>
+      <div class="animated card grid wxcd_date7_var11"></div>
+      <div class="animated card grid wxcd_date7_var12"></div>
+      <div class="animated card grid wxcd_date7_var13"></div>
+      <div class="animated card grid wxcd_date7_var14"></div>
+      <div class="animated card grid wxcd_date7_var15"></div>
+      <div class="animated card grid wxcd_date7_var16"></div>
+      <div class="animated card grid wxcd_date7_var17"></div>
+      <div class="animated card grid wxcd_date7_var18"></div>
+      <div class="animated card grid wxcd_date7_var19"></div>
+      <div class="animated card grid wxcd_date7_var20"></div>
+      <div class="animated card grid wxcd_date7_var21"></div>
+      <div class="animated card grid wxcd_date7_var22"></div>
+      <div class="animated card grid wxcd_date7_var23"></div>
+      <div class="animated card grid wxcd_date7_var24"></div>
+      <div class="animated card collection wxcd_date8_collection"></div>
+      <div class="animated card grid wxcd_date8_var1"></div>
+      <div class="animated card grid wxcd_date8_var2"></div>
+      <div class="animated card grid wxcd_date8_var3"></div>
+      <div class="animated card grid wxcd_date8_var4"></div>
+      <div class="animated card grid wxcd_date8_var5"></div>
+      <div class="animated card grid wxcd_date8_var6"></div>
+      <div class="animated card grid wxcd_date8_var7"></div>
+      <div class="animated card grid wxcd_date8_var8"></div>
+      <div class="animated card grid wxcd_date8_var9"></div>
+      <div class="animated card grid wxcd_date8_var10"></div>
+      <div class="animated card grid wxcd_date8_var11"></div>
+      <div class="animated card grid wxcd_date8_var12"></div>
+      <div class="animated card grid wxcd_date8_var13"></div>
+      <div class="animated card grid wxcd_date8_var14"></div>
+      <div class="animated card grid wxcd_date8_var15"></div>
+      <div class="animated card grid wxcd_date8_var16"></div>
+      <div class="animated card grid wxcd_date8_var17"></div>
+      <div class="animated card grid wxcd_date8_var18"></div>
+      <div class="animated card grid wxcd_date8_var19"></div>
+      <div class="animated card grid wxcd_date8_var20"></div>
+      <div class="animated card grid wxcd_date8_var21"></div>
+      <div class="animated card grid wxcd_date8_var22"></div>
+      <div class="animated card grid wxcd_date8_var23"></div>
+      <div class="animated card grid wxcd_date8_var24"></div>
+      <div class="animated card collection wxcd_date9_collection"></div>
+      <div class="animated card grid wxcd_date9_var1"></div>
+      <div class="animated card grid wxcd_date9_var2"></div>
+      <div class="animated card grid wxcd_date9_var3"></div>
+      <div class="animated card grid wxcd_date9_var4"></div>
+      <div class="animated card grid wxcd_date9_var5"></div>
+      <div class="animated card grid wxcd_date9_var6"></div>
+      <div class="animated card grid wxcd_date9_var7"></div>
+      <div class="animated card grid wxcd_date9_var8"></div>
+      <div class="animated card grid wxcd_date9_var9"></div>
+      <div class="animated card grid wxcd_date9_var10"></div>
+      <div class="animated card grid wxcd_date9_var11"></div>
+      <div class="animated card grid wxcd_date9_var12"></div>
+      <div class="animated card grid wxcd_date9_var13"></div>
+      <div class="animated card grid wxcd_date9_var14"></div>
+      <div class="animated card grid wxcd_date9_var15"></div>
+      <div class="animated card grid wxcd_date9_var16"></div>
+      <div class="animated card grid wxcd_date9_var17"></div>
+      <div class="animated card grid wxcd_date9_var18"></div>
+      <div class="animated card grid wxcd_date9_var19"></div>
+      <div class="animated card grid wxcd_date9_var20"></div>
+      <div class="animated card grid wxcd_date9_var21"></div>
+      <div class="animated card grid wxcd_date9_var22"></div>
+      <div class="animated card grid wxcd_date9_var23"></div>
+      <div class="animated card grid wxcd_date9_var24"></div>
+      <div class="animated card collection wxcd_date10_collection"></div>
+      <div class="animated card grid wxcd_date10_var1"></div>
+      <div class="animated card grid wxcd_date10_var2"></div>
+      <div class="animated card grid wxcd_date10_var3"></div>
+      <div class="animated card grid wxcd_date10_var4"></div>
+      <div class="animated card grid wxcd_date10_var5"></div>
+      <div class="animated card grid wxcd_date10_var6"></div>
+      <div class="animated card grid wxcd_date10_var7"></div>
+      <div class="animated card grid wxcd_date10_var8"></div>
+      <div class="animated card grid wxcd_date10_var9"></div>
+      <div class="animated card grid wxcd_date10_var10"></div>
+      <div class="animated card grid wxcd_date10_var11"></div>
+      <div class="animated card grid wxcd_date10_var12"></div>
+      <div class="animated card grid wxcd_date10_var13"></div>
+      <div class="animated card grid wxcd_date10_var14"></div>
+      <div class="animated card grid wxcd_date10_var15"></div>
+      <div class="animated card grid wxcd_date10_var16"></div>
+      <div class="animated card grid wxcd_date10_var17"></div>
+      <div class="animated card grid wxcd_date10_var18"></div>
+      <div class="animated card grid wxcd_date10_var19"></div>
+      <div class="animated card grid wxcd_date10_var20"></div>
+      <div class="animated card grid wxcd_date10_var21"></div>
+      <div class="animated card grid wxcd_date10_var22"></div>
+      <div class="animated card grid wxcd_date10_var23"></div>
+      <div class="animated card grid wxcd_date10_var24"></div>
+      <div class="animated card collection wxcd_date11_collection"></div>
+      <div class="animated card grid wxcd_date11_var1"></div>
+      <div class="animated card grid wxcd_date11_var2"></div>
+      <div class="animated card grid wxcd_date11_var3"></div>
+      <div class="animated card grid wxcd_date11_var4"></div>
+      <div class="animated card grid wxcd_date11_var5"></div>
+      <div class="animated card grid wxcd_date11_var6"></div>
+      <div class="animated card grid wxcd_date11_var7"></div>
+      <div class="animated card grid wxcd_date11_var8"></div>
+      <div class="animated card grid wxcd_date11_var9"></div>
+      <div class="animated card grid wxcd_date11_var10"></div>
+      <div class="animated card grid wxcd_date11_var11"></div>
+      <div class="animated card grid wxcd_date11_var12"></div>
+      <div class="animated card grid wxcd_date11_var13"></div>
+      <div class="animated card grid wxcd_date11_var14"></div>
+      <div class="animated card grid wxcd_date11_var15"></div>
+      <div class="animated card grid wxcd_date11_var16"></div>
+      <div class="animated card grid wxcd_date11_var17"></div>
+      <div class="animated card grid wxcd_date11_var18"></div>
+      <div class="animated card grid wxcd_date11_var19"></div>
+      <div class="animated card grid wxcd_date11_var20"></div>
+      <div class="animated card grid wxcd_date11_var21"></div>
+      <div class="animated card grid wxcd_date11_var22"></div>
+      <div class="animated card grid wxcd_date11_var23"></div>
+      <div class="animated card grid wxcd_date11_var24"></div>
+      <div class="animated card collection wxcd_date12_collection"></div>
+      <div class="animated card grid wxcd_date12_var1"></div>
+      <div class="animated card grid wxcd_date12_var2"></div>
+      <div class="animated card grid wxcd_date12_var3"></div>
+      <div class="animated card grid wxcd_date12_var4"></div>
+      <div class="animated card grid wxcd_date12_var5"></div>
+      <div class="animated card grid wxcd_date12_var6"></div>
+      <div class="animated card grid wxcd_date12_var7"></div>
+      <div class="animated card grid wxcd_date12_var8"></div>
+      <div class="animated card grid wxcd_date12_var9"></div>
+      <div class="animated card grid wxcd_date12_var10"></div>
+      <div class="animated card grid wxcd_date12_var11"></div>
+      <div class="animated card grid wxcd_date12_var12"></div>
+      <div class="animated card grid wxcd_date12_var13"></div>
+      <div class="animated card grid wxcd_date12_var14"></div>
+      <div class="animated card grid wxcd_date12_var15"></div>
+      <div class="animated card grid wxcd_date12_var16"></div>
+      <div class="animated card grid wxcd_date12_var17"></div>
+      <div class="animated card grid wxcd_date12_var18"></div>
+      <div class="animated card grid wxcd_date12_var19"></div>
+      <div class="animated card grid wxcd_date12_var20"></div>
+      <div class="animated card grid wxcd_date12_var21"></div>
+      <div class="animated card grid wxcd_date12_var22"></div>
+      <div class="animated card grid wxcd_date12_var23"></div>
+      <div class="animated card grid wxcd_date12_var24"></div>
+      <div class="animated card collection wxcd_date13_collection"></div>
+      <div class="animated card grid wxcd_date13_var1"></div>
+      <div class="animated card grid wxcd_date13_var2"></div>
+      <div class="animated card grid wxcd_date13_var3"></div>
+      <div class="animated card grid wxcd_date13_var4"></div>
+      <div class="animated card grid wxcd_date13_var5"></div>
+      <div class="animated card grid wxcd_date13_var6"></div>
+      <div class="animated card grid wxcd_date13_var7"></div>
+      <div class="animated card grid wxcd_date13_var8"></div>
+      <div class="animated card grid wxcd_date13_var9"></div>
+      <div class="animated card grid wxcd_date13_var10"></div>
+      <div class="animated card grid wxcd_date13_var11"></div>
+      <div class="animated card grid wxcd_date13_var12"></div>
+      <div class="animated card grid wxcd_date13_var13"></div>
+      <div class="animated card grid wxcd_date13_var14"></div>
+      <div class="animated card grid wxcd_date13_var15"></div>
+      <div class="animated card grid wxcd_date13_var16"></div>
+      <div class="animated card grid wxcd_date13_var17"></div>
+      <div class="animated card grid wxcd_date13_var18"></div>
+      <div class="animated card grid wxcd_date13_var19"></div>
+      <div class="animated card grid wxcd_date13_var20"></div>
+      <div class="animated card grid wxcd_date13_var21"></div>
+      <div class="animated card grid wxcd_date13_var22"></div>
+      <div class="animated card grid wxcd_date13_var23"></div>
+      <div class="animated card grid wxcd_date13_var24"></div>
+      <div class="animated card collection wxcd_date14_collection"></div>
+      <div class="animated card grid wxcd_date14_var1"></div>
+      <div class="animated card grid wxcd_date14_var2"></div>
+      <div class="animated card grid wxcd_date14_var3"></div>
+      <div class="animated card grid wxcd_date14_var4"></div>
+      <div class="animated card grid wxcd_date14_var5"></div>
+      <div class="animated card grid wxcd_date14_var6"></div>
+      <div class="animated card grid wxcd_date14_var7"></div>
+      <div class="animated card grid wxcd_date14_var8"></div>
+      <div class="animated card grid wxcd_date14_var9"></div>
+      <div class="animated card grid wxcd_date14_var10"></div>
+      <div class="animated card grid wxcd_date14_var11"></div>
+      <div class="animated card grid wxcd_date14_var12"></div>
+      <div class="animated card grid wxcd_date14_var13"></div>
+      <div class="animated card grid wxcd_date14_var14"></div>
+      <div class="animated card grid wxcd_date14_var15"></div>
+      <div class="animated card grid wxcd_date14_var16"></div>
+      <div class="animated card grid wxcd_date14_var17"></div>
+      <div class="animated card grid wxcd_date14_var18"></div>
+      <div class="animated card grid wxcd_date14_var19"></div>
+      <div class="animated card grid wxcd_date14_var20"></div>
+      <div class="animated card grid wxcd_date14_var21"></div>
+      <div class="animated card grid wxcd_date14_var22"></div>
+      <div class="animated card grid wxcd_date14_var23"></div>
+      <div class="animated card grid wxcd_date14_var24"></div>
+      <div class="animated card collection wxcd_date15_collection"></div>
+      <div class="animated card grid wxcd_date15_var1"></div>
+      <div class="animated card grid wxcd_date15_var2"></div>
+      <div class="animated card grid wxcd_date15_var3"></div>
+      <div class="animated card grid wxcd_date15_var4"></div>
+      <div class="animated card grid wxcd_date15_var5"></div>
+      <div class="animated card grid wxcd_date15_var6"></div>
+      <div class="animated card grid wxcd_date15_var7"></div>
+      <div class="animated card grid wxcd_date15_var8"></div>
+      <div class="animated card grid wxcd_date15_var9"></div>
+      <div class="animated card grid wxcd_date15_var10"></div>
+      <div class="animated card grid wxcd_date15_var11"></div>
+      <div class="animated card grid wxcd_date15_var12"></div>
+      <div class="animated card grid wxcd_date15_var13"></div>
+      <div class="animated card grid wxcd_date15_var14"></div>
+      <div class="animated card grid wxcd_date15_var15"></div>
+      <div class="animated card grid wxcd_date15_var16"></div>
+      <div class="animated card grid wxcd_date15_var17"></div>
+      <div class="animated card grid wxcd_date15_var18"></div>
+      <div class="animated card grid wxcd_date15_var19"></div>
+      <div class="animated card grid wxcd_date15_var20"></div>
+      <div class="animated card grid wxcd_date15_var21"></div>
+      <div class="animated card grid wxcd_date15_var22"></div>
+      <div class="animated card grid wxcd_date15_var23"></div>
+      <div class="animated card grid wxcd_date15_var24"></div>
+      <div class="animated card collection wxcd_date16_collection"></div>
+      <div class="animated card grid wxcd_date16_var1"></div>
+      <div class="animated card grid wxcd_date16_var2"></div>
+      <div class="animated card grid wxcd_date16_var3"></div>
+      <div class="animated card grid wxcd_date16_var4"></div>
+      <div class="animated card grid wxcd_date16_var5"></div>
+      <div class="animated card grid wxcd_date16_var6"></div>
+      <div class="animated card grid wxcd_date16_var7"></div>
+      <div class="animated card grid wxcd_date16_var8"></div>
+      <div class="animated card grid wxcd_date16_var9"></div>
+      <div class="animated card grid wxcd_date16_var10"></div>
+      <div class="animated card grid wxcd_date16_var11"></div>
+      <div class="animated card grid wxcd_date16_var12"></div>
+      <div class="animated card grid wxcd_date16_var13"></div>
+      <div class="animated card grid wxcd_date16_var14"></div>
+      <div class="animated card grid wxcd_date16_var15"></div>
+      <div class="animated card grid wxcd_date16_var16"></div>
+      <div class="animated card grid wxcd_date16_var17"></div>
+      <div class="animated card grid wxcd_date16_var18"></div>
+      <div class="animated card grid wxcd_date16_var19"></div>
+      <div class="animated card grid wxcd_date16_var20"></div>
+      <div class="animated card grid wxcd_date16_var21"></div>
+      <div class="animated card grid wxcd_date16_var22"></div>
+      <div class="animated card grid wxcd_date16_var23"></div>
+      <div class="animated card grid wxcd_date16_var24"></div>
+      <div class="animated card collection wxcd_date17_collection"></div>
+      <div class="animated card grid wxcd_date17_var1"></div>
+      <div class="animated card grid wxcd_date17_var2"></div>
+      <div class="animated card grid wxcd_date17_var3"></div>
+      <div class="animated card grid wxcd_date17_var4"></div>
+      <div class="animated card grid wxcd_date17_var5"></div>
+      <div class="animated card grid wxcd_date17_var6"></div>
+      <div class="animated card grid wxcd_date17_var7"></div>
+      <div class="animated card grid wxcd_date17_var8"></div>
+      <div class="animated card grid wxcd_date17_var9"></div>
+      <div class="animated card grid wxcd_date17_var10"></div>
+      <div class="animated card grid wxcd_date17_var11"></div>
+      <div class="animated card grid wxcd_date17_var12"></div>
+      <div class="animated card grid wxcd_date17_var13"></div>
+      <div class="animated card grid wxcd_date17_var14"></div>
+      <div class="animated card grid wxcd_date17_var15"></div>
+      <div class="animated card grid wxcd_date17_var16"></div>
+      <div class="animated card grid wxcd_date17_var17"></div>
+      <div class="animated card grid wxcd_date17_var18"></div>
+      <div class="animated card grid wxcd_date17_var19"></div>
+      <div class="animated card grid wxcd_date17_var20"></div>
+      <div class="animated card grid wxcd_date17_var21"></div>
+      <div class="animated card grid wxcd_date17_var22"></div>
+      <div class="animated card grid wxcd_date17_var23"></div>
+      <div class="animated card grid wxcd_date17_var24"></div>
+      <div class="animated card collection wxcd_date18_collection"></div>
+      <div class="animated card grid wxcd_date18_var1"></div>
+      <div class="animated card grid wxcd_date18_var2"></div>
+      <div class="animated card grid wxcd_date18_var3"></div>
+      <div class="animated card grid wxcd_date18_var4"></div>
+      <div class="animated card grid wxcd_date18_var5"></div>
+      <div class="animated card grid wxcd_date18_var6"></div>
+      <div class="animated card grid wxcd_date18_var7"></div>
+      <div class="animated card grid wxcd_date18_var8"></div>
+      <div class="animated card grid wxcd_date18_var9"></div>
+      <div class="animated card grid wxcd_date18_var10"></div>
+      <div class="animated card grid wxcd_date18_var11"></div>
+      <div class="animated card grid wxcd_date18_var12"></div>
+      <div class="animated card grid wxcd_date18_var13"></div>
+      <div class="animated card grid wxcd_date18_var14"></div>
+      <div class="animated card grid wxcd_date18_var15"></div>
+      <div class="animated card grid wxcd_date18_var16"></div>
+      <div class="animated card grid wxcd_date18_var17"></div>
+      <div class="animated card grid wxcd_date18_var18"></div>
+      <div class="animated card grid wxcd_date18_var19"></div>
+      <div class="animated card grid wxcd_date18_var20"></div>
+      <div class="animated card grid wxcd_date18_var21"></div>
+      <div class="animated card grid wxcd_date18_var22"></div>
+      <div class="animated card grid wxcd_date18_var23"></div>
+      <div class="animated card grid wxcd_date18_var24"></div>
+      <div class="animated card collection wxcd_date19_collection"></div>
+      <div class="animated card grid wxcd_date19_var1"></div>
+      <div class="animated card grid wxcd_date19_var2"></div>
+      <div class="animated card grid wxcd_date19_var3"></div>
+      <div class="animated card grid wxcd_date19_var4"></div>
+      <div class="animated card grid wxcd_date19_var5"></div>
+      <div class="animated card grid wxcd_date19_var6"></div>
+      <div class="animated card grid wxcd_date19_var7"></div>
+      <div class="animated card grid wxcd_date19_var8"></div>
+      <div class="animated card grid wxcd_date19_var9"></div>
+      <div class="animated card grid wxcd_date19_var10"></div>
+      <div class="animated card grid wxcd_date19_var11"></div>
+      <div class="animated card grid wxcd_date19_var12"></div>
+      <div class="animated card grid wxcd_date19_var13"></div>
+      <div class="animated card grid wxcd_date19_var14"></div>
+      <div class="animated card grid wxcd_date19_var15"></div>
+      <div class="animated card grid wxcd_date19_var16"></div>
+      <div class="animated card grid wxcd_date19_var17"></div>
+      <div class="animated card grid wxcd_date19_var18"></div>
+      <div class="animated card grid wxcd_date19_var19"></div>
+      <div class="animated card grid wxcd_date19_var20"></div>
+      <div class="animated card grid wxcd_date19_var21"></div>
+      <div class="animated card grid wxcd_date19_var22"></div>
+      <div class="animated card grid wxcd_date19_var23"></div>
+      <div class="animated card grid wxcd_date19_var24"></div>
+      <div class="animated card collection wxcd_date20_collection"></div>
+      <div class="animated card grid wxcd_date20_var1"></div>
+      <div class="animated card grid wxcd_date20_var2"></div>
+      <div class="animated card grid wxcd_date20_var3"></div>
+      <div class="animated card grid wxcd_date20_var4"></div>
+      <div class="animated card grid wxcd_date20_var5"></div>
+      <div class="animated card grid wxcd_date20_var6"></div>
+      <div class="animated card grid wxcd_date20_var7"></div>
+      <div class="animated card grid wxcd_date20_var8"></div>
+      <div class="animated card grid wxcd_date20_var9"></div>
+      <div class="animated card grid wxcd_date20_var10"></div>
+      <div class="animated card grid wxcd_date20_var11"></div>
+      <div class="animated card grid wxcd_date20_var12"></div>
+      <div class="animated card grid wxcd_date20_var13"></div>
+      <div class="animated card grid wxcd_date20_var14"></div>
+      <div class="animated card grid wxcd_date20_var15"></div>
+      <div class="animated card grid wxcd_date20_var16"></div>
+      <div class="animated card grid wxcd_date20_var17"></div>
+      <div class="animated card grid wxcd_date20_var18"></div>
+      <div class="animated card grid wxcd_date20_var19"></div>
+      <div class="animated card grid wxcd_date20_var20"></div>
+      <div class="animated card grid wxcd_date20_var21"></div>
+      <div class="animated card grid wxcd_date20_var22"></div>
+      <div class="animated card grid wxcd_date20_var23"></div>
+      <div class="animated card grid wxcd_date20_var24"></div>
+    </div>
+  </body>
+</html>
